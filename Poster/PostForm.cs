@@ -83,6 +83,8 @@ appid : com.accela.inspector
         {
             try
             {
+                // open application, init a token
+                btnGenerateToken_Click(null, null);
                 SHARED_HTTP_HEADER_SETTING = FileUtility.ReadHttpHeaderSettingFile();
 
                 this.txtAgency.Text = SHARED_HTTP_HEADER_SETTING.Agency;
