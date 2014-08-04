@@ -1,0 +1,21 @@
+----------RequestURL----------
+RequestURL=http://aca.ist.accela.com/gateway-ist/proxy
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appsecret: 2012122222212102
+Content-Type:application/json
+x-accela-appid: com.accela.inspector
+
+AccessKey:544C423CBFA04B36AD095A3FAED175B2
+
+bizurl:http://10.5.2.103:3080/apis/v1/reportsw/833?module=Building&token=47257328395453300506
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+    "parameters":
+    {
+        "capID":"13CAP-00000-00001",
+        "date":"2013-03-20"
+    }
+}
+----------RequestBody----------

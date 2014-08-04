@@ -1,0 +1,50 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v3/a311civicapp/records/?uniqueID=35ACA96C-54FB-491D-8D27-6FCBBBB2BF99&lang=en_US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Connection: keep-alive  
+Content-Type: multipart/form-data; boundary=Boundary+0xAbCdEfGbOuNdArY
+Accept: application/json  
+Accept-Encoding: gzip  
+Authorization: SLFYJLe0dnw_X81Is41B-hnEmijQhJEZv_1hpC79Z9WBx1T8WScGjTjPEBwILcE9z411u2rckAllpTXs3HiHtZSQvX4qfs_WUlCJVZkF57DSjVoSGzylzgoW_IJUtIVRe8zaCgyQYj3g2D0BxErMjrUdZrd_hK6NWOBQScMC6Ew6IcsaDA25xdVDvuG0TKsOghivfnlwfidqndzujSetg8tXkc9JhSy6Qdddx-PXvcb8JPHB-F0pfKzZ7-71o-UVG_ie-CSKJ-y4nKFUx6AxXN5ZPr4-W0QrzyXS-o1VpOni0d19aTB-hbe0rtprdOSbf1TBdBsZkOHN4XghBIaIriOElq1os3m1ddjcL9iHH61YyvYrwvr2xazagc9G_zfhbeqC8yJzSF7qCLLlnmYgXwVsIsNHcpAQi0N8hL1l1sTqh8K9eJorpK-k4O7_vjGrWl3nJ5mrmiU-ey4ELtwlawbXpFSYGtQHbBZPLQ-8xMQ4NJdWtLK3y6hnN4jYL2_83srFDlDTMcEVkS4yW2SlH8o2YbFc0MUmbZ11YSAY69HqXScRjANoTJgEUfKvNcRVZ3J63fjHTgzUYVx0FE0lhgOZx7oE8w5OxihC9J6LVrnQODGDc6KIFGRcQhY7GXb436h0AnfnbZwjGW97Efn9fgjuHSM0T2W1kPeiJwK2UnN4JhWxyGEjPEbtHnGf1l-R86ZVLQnUm-YLFLrngGnA3CdH4Tqiavym4cJDKYOlQVCyhyPZvAog_G_wfNxezqL3qU96oliPmTOK3HTYJbHPB3BYg55jHJRtYudTmtCIL-guMeHjhMc44wW47NNFkRoEv15a55Rh-I6JMl63ODxJr-_JoeDS2Aw6Il8wpoEiKa89gNCVqOLFFaMCrA1tZBaJSks8KvjgMEVZmX9pQp5pGuTLY6svtvUOglwAHdQuqqdqHlqlAAiZRbAviXQXbsjxTlFMR9WgU6sXKUTnCseYiI2jq3aPIRCAp5hF_gEfeDt8uc_S8J_jY6jMvMM2Msd53pDASPxgyd34GAMhUvVtRCQR4VcXytIKHrsI7J0YvfToa0emdSZnloVcBzD7fktJtLY-vMzlEjcRXSpUPCwrpl8ERnaEaZgdAq_N1s4tUt8RnkneE2A5axI7Ws1nYBSocyit6IvCujxori9QKm2nSZOC_ctuTl4PA6eRa-s043NQ7K60rUXCcv5X6WmmjuBjNJiA5nPzjY4jxE8gBxLlzZt5__nce1gOcCu1fW1jNiOKmOK4EU6nU2bCP0UuuMbVNAWKQPBMNJ1WEQdsLuMFu_RE4EGXuL2fEhq-ohbJxyw1
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=--Boundary+0xAbCdEfGbOuNdArY
+Content-Disposition: form-data; name="json-data"
+
+{
+  "createRecord" : {
+    "type" : {
+      "id" : "ServiceRequest\/Graffiti\/Graffiti\/NA"
+    },
+    "description" : "GRAFFITI near 2003 Camino Ramon, San Ramon, California, 94583",
+    "address" : {
+      "addressFormat" : "2003 Camino Ramon, San Ramon, California, 94583",
+      "houseNumber" : "2003",
+      "city" : "San Ramon",
+      "streetSuffix" : "",
+      "xCoordinate" : "-121.970582",
+      "yCoordinate" : "37.782090",
+      "state" : "CA",
+      "streetDirection" : "",
+      "streetName" : "Camino Ramon"
+    },
+    "contacts" : [
+      {
+        "fullName" : "Dave Brewster",
+        "emails" : [
+          "dbrewster@accela"
+        ],
+        "id" : "bdc195e8-d521-47d2-8e51-1dd24ca2534b",
+        "givenName" : "Dave",
+        "familyName" : "Brewster",
+        "contactRole" : {
+          "id" : "Complaintant",
+          "display" : "Complaintant"
+        }
+      }
+    ]
+  }
+}
+--Boundary+0xAbCdEfGbOuNdArY--
+----------RequestBody----------

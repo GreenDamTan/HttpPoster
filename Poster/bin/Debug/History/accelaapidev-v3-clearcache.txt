@@ -1,0 +1,15 @@
+----------RequestURL----------
+RequestURL=https://apis.dev.accela.com/apis/v3/resources/cache
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid:com.accela.inspector
+content-type:application/json
+Accept: application/json
+x-accela-subsystem-accesskey:dhHeALUHMuBK+kC5lQktCwJINpSpLGIbsm96LFJ5GVOJErOH/TIRVQO+jh/SaNlMZ/noLpf4Zdd1d3Ts/muWCQ==
+
+Accept-Encoding: gzip, deflate  
+Authorization:SvAJH7jgBObbcOELWIuhrh8NZddRuMxdlIwr7-BbKAbajUOg-88dGR0vgOZfb5MFku5YVQZTbaZzBMMMvsaAMjWP89UrJHmwlgtnxw_nmXBm3OnAXuTfedqifz2eoB15c6c3nzGpdXuCToT40f9ZA9lqZm17DnDHpybceY2J_kVxDM2s6iIZA9eu1h-mxLeX_NLLXMGZ88L9I77r9ptAJS8uzvXwvinDIQ33C4zmaWbn5VpITdh-J4dkfBRE9sxRD1xpODLP5TlJ4gvBPyzx2LrYEVOfk6NdysXdTvEKp05dUuTE1qTKAv2xI5lV1OVHhg3yi5YLBEeQ1YK_KEtlZdQEA3e7uqDQad0HBn4P7nzYLfuHCQjAWlVz8wDl_qE_9_Z9YgEpDPx6TpfcKco5EmbS2b7-d02ZmvNjKhI7zKedYxWjaR0ZIl7agRVsAwBQ0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

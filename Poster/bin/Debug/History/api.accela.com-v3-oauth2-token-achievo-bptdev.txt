@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/oauth2/token
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/x-www-form-urlencoded
+x-accela-appid: 634986395732703910
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=grant_type=password&client_id=634986395732703910&client_secret=30ad0c4569594d1b812722567e05a19a&username=admin&password=admin&scope=get_addresses get_address create_report get_reports_definition get_report_definition&agency_name=BEYONDSOFT-BPTDEV-AUTOTESTING &environment=SUPP
+----------RequestBody----------

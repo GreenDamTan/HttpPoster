@@ -1,0 +1,21 @@
+----------RequestURL----------
+RequestURL=http://220.232.135.237/Gateway3/proxy.aspx
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/x-www-form-urlencoded
+AccessKey:C44F25A8EC8948E4A5C435AF30A0A0A4
+bizurl:http://10.50.130.58:33080/wireless/GovXMLServlet
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=xmlin=<?xml version="1.0" encoding="UTF-8"?>
+<GovXML xmlns="http://www.accela.com/schema/AccelaOpenSystemInterfaceXML">
+	<AuthenticateUser>
+		<System>
+			<XMLVersion>GovXML-7.0.0</XMLVersion>
+			<ServiceProviderCode>SACCO</ServiceProviderCode>
+		</System>
+		<Username>ADMIN</Username>
+		<Password>admin</Password>
+	</AuthenticateUser>
+</GovXML>
+----------RequestBody----------

@@ -1,0 +1,17 @@
+----------RequestURL----------
+RequestURL=https://apis.dev.accela.com/v3/reports/833?module=Building
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+Authorization:Tq244cTf4VOLKm6hTAZiAx1HlKv9zzywsxlstIMLinWxxTifIrK18MwEpWvmkzx9r-SeZg1p7wHSofAFysNQl7hsxJ7p2Zp8Mp7V_bkhModv_K9qmGizExUm7QjuPwWee3I2kwQUDMV3w3C6kqsb4_hCgP8QWvh0c1Uj9KqncQ0gXSE26QAoVLp0dN5fTRchZFz6PHW1N1c20U_4n3CsxqDhzCRNOIVTCRcA2UINlKqQHtzfTBl-wVqBJZF9AvnArPv7YzsOtdwNLZnj3Th1x5PbNZHjLWoOFSI7gggsqGZQAMZQ_F_lkhyQFv2x_CviSLgoA1Y-UW_jOfnUIohAHYhU2M9Fpm3tcHveBdOaEV9uhDS5-SlhGrpV8ugpub0FfUZdWbkjCvUW2_G7uvz4AVnpTv4_vzIl-PrkMTQ5CMOpR9hUoC5SHRfSlDaud4K3Xn2ABm22HXn28kUfquQ7OfQGL52eIKfEF0UCTrbCcDI1
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+    "parameters":
+    {
+        "capID":"13CAP-00000-00001",
+        "date":"2013-03-20"
+    }
+}
+----------RequestBody----------

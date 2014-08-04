@@ -1,0 +1,54 @@
+----------RequestURL----------
+RequestURL=https://apps-apis.cloudapp.net/v4/records/BPTDEV-DUB14-00000-0001H/professionals/ADW-Contractor
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+x-accela-appid:635175027379969319
+Authorization:OycIeNTIGp5awx5E7RHV0UiWg4JtUCZdqJi65mlLLS6Ntjk2yjP0g9MHZ_f1EGDZukcYW1GuZde_Rw-X4UlEfeQeqHZmsW2JcqKeMsbxSnU2H9EzV8EIAHw0HRk_DMGCD5UiKM9WfSYoIGEM2Ske4FCsxvRMnVzAV975dNSIWTauCk8Ln-cN-iR72khJk6iSBJBqYOH_YG3wU8HFEI6luE3QJ1sKUnJ5OxUCAI31vOamvCc0F2FwRTEvcElN1rsnxPvkaTwRFU78rO4h_1H2hKzgLcQym3nEssg5S6ODu2bRz_vsGk0LGI3waqdl0gvggJBJzSZUuzmGxiqC1JhJ3lRBpYvmibtvvE_xLakuwM5u9iogx7DN-kL9tmRyli9bgsICZZlwFa_jWRmpl-8tYArL5XgH2havEzwCwiG7BY3qasdmbGT9x1EEKJEO5wpZgoudGvz6lTmNRz-1x5vv4w2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+"id": "ADW-Contractor",
+"licenseType": {
+"value": "Contractor"
+},
+"businessName": "EnglishTradeName",
+"businessLicense": "BusinessLicen1s#",
+"address1": "aaa",
+"address2": "bbb",
+"address3": "ccc",
+"city": "shenzhen",
+"state": {
+"value": "TX"
+},
+"country": {
+"value": "AI"
+},
+"phone1": "1234567",
+"phone2": "1234567",
+"phone3": "18688448854",
+"comment": "Commentstext",
+"fax": "54646664646",
+"email": "xxx@beyondsoft.com",
+"salutation": {
+"value": "Miss"
+},
+"gender": {
+"value": "F"
+},
+"postOfficeBox": "P.O.Box",
+"birthDate": "2013-12-16",
+"typeFlag": "individual",
+"socialSecurityNumber": "44-464-6464",
+"title": "Title",
+"licenseNumber": "3333",
+"firstName": "Kevin",
+"middleName": "ok",
+"lastName": "Li",
+"suffix": "ff",
+"postalCode": "SA15644",
+"primary": "Y",
+"referenceLicenseId": "-1",
+"businessName2": "ArabicTradeName"
+}
+----------RequestBody----------

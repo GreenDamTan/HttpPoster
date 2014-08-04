@@ -1,0 +1,12 @@
+----------RequestURL----------
+RequestURL=http://localhost:7382/v3/appsettings
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+x-accela-appsecret:2012122222212102
+x-accela-appplatform: ipad|3.2|my http poster
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

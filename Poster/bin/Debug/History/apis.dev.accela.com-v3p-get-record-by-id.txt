@@ -1,0 +1,13 @@
+----------RequestURL----------
+RequestURL=https://apis.dev.accela.com/v3p/records/13000-00000-02023
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid: com.accela.inspector
+content-type:application/json
+Accept: application/json
+Accept-Encoding: gzip, deflate  
+Authorization:h0-B3Z-ge1CdG4cEMpOxQjP7fWctfa5D-FXDQjmWohG_RqcjtyzTm7zeIZM9tzYkpoJ59dON7EFuyEqSjt9C0_HlTcSG5Gtb87oVdyKSl5zgb5WF6ctGN_XOx1N5LvpAjSKAikJyvi-MU8JP77uAgtUNqOP4OT5_39fsqAjYxBe92pVWCO-_1pwfIf2HE4aARkDLEWPshdqQ3iGUlX0BnclMDpm97wUrk6KzBpNm9jbNvpWcnkszcWFcHV0tH9m65K5SERvtGM4fwxD6EYfL1BkGotG0woqeSteExKYgV1h5kwBTvOajq0YxTmmATaCzH9Ov1STXUgAzw-h8k1WlmGNseIdYUGzLVy121sKvHyUYt6Qpi4tCIZJWwN5eQuXJANKYQ7AqIWVjLJhK7F6-15AsSxoJi2fOjZzja4QaPYZLCPrgLkPWQcm0Wf6H9xdEPULJhY4JWWmu7JmuOUEUKg2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

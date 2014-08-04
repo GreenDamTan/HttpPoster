@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v3/a311civicapp/search/records?lang=en_US&offset=0&limit=25&expand=addresses
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/x-www-form-urlencoded
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={"filter":{"bBox":{"yMin":"-19.80057647342478","xMin":"-174.24767922610044","xMax":"-47.68518593162298","yMax":"80.84616746263447"}}}
+----------RequestBody----------

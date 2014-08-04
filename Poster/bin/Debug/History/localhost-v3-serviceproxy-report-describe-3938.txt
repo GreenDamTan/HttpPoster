@@ -1,0 +1,12 @@
+----------RequestURL----------
+RequestURL=http://localhost:7382/v3/aaserviceproxy/reports/describe/3938
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appsecret: 2012122222212102
+Content-Type:application/json
+x-accela-appid: com.accela.inspector
+Authorization:4aY8EZ3VeFQ1zQBwmf39YiSrgAehWwztNz23URBDbLpQEpNUcmeEiXlH5Z6RbjpqRD9dOSsuuVT1uER3RQtHvkgAMRBmYXNfcvjk-_i4FcKLBkGno6J8nz6AoyR3-3rDQU4FMgF1jVZTv3rOcq-_LzujSBRReZ4a62MPr6WfNi92bE-JlWk9MCSVyRvGQK1df81j4vEsyAwZyWbm0RLhWOxa8ZIsI3fBLVliA0VYnsl6SBf_9p5K69FCmH9VOg6AlYQXJiHVQ8xUeJp2ii2dP3FlA9_PBl8IYR5AceubMYYj2MSvhnFP6V_PS4-gjwdMK8RHIEUuW-05fnP3HfULtComZaHg0ZKOJmh8RusfHGFo17XbWQNDGIIU4it0xT6eaCvh9Ual1sop3gWpHAobZaCz0rdsLN42uhJqWP5iIEzzXH1HXFOIIUkV81pXKxbj4H8GFEJYPb5Ga5zML2Fwe7OlGa9E2-yOZuyU9f__bnrpIjfpGIdwhEEtjBUEdlVz916Px0gJAU2scRS-1Wlbnf-jCZoAGOdFHVsK_5yh8LBoDxGYQCkF6tWLwq_08f1r0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://accelaapidev.cloudapp.net/v3/a311civicapp/search/records?offset=0&limit=25&lang=en_US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: 635046998338319093 
+x-accela-environment: TEST
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

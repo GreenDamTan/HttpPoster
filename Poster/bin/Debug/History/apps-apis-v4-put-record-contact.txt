@@ -1,0 +1,66 @@
+----------RequestURL----------
+RequestURL=https://apps-apis.cloudapp.net/v4/records/BPTDEV-DUB14-00000-0001H/contacts/1048
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+x-accela-appid:635175027379969319
+Authorization:OycIeNTIGp5awx5E7RHV0V6RGsf2tSM5XsKKlymqQ0-SEkem49MVE3xvpcK0PFdNkdBnzbZbk9zU15-ONECMI9kkr2ox9crbVWBpJpzuBeTYLjIckzVuhowYnEx38Bifkgf-64uDzwf7FNw4L01pEFAfOPbaEg4d1wgT115U6wAPAs8y_WGHuXJyytrwWjlJAjDQBS6Rpqkwp1k2QUK6jhfPjE9X8d3LALOgR-YAJvwMGKQUvCgdx1TkEX7G6PePQbdhxe7G8SfYv5KcYQAJahavFiQIOMsXCtO-R1Del_5hFqEexRBjJc74uqT9RXQ17M7Y9FxzapSydlvfzjZdUVAozsIuy7Dc-VDT2vQjDdQCz2_pVwCdyuxcU7-eH3Gv2k_7ReBu9RWlqyYVAwmnJsBXXy6saN_vX1Vf47tp1mdsEjepThl6l8JYm4qiqaHRbiqjugGohkXoI6rRVNmreQ2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+"comment": "1vintest",
+"startDate": "2014-03-02T16:00:00Z",
+"firstName": "Kevin",
+"lastName": "Li",
+"endDate": "2014-12-08T16:00:00Z",
+"fullName": "111",
+"email": "kevintest@163.com",
+"title": "kevin'sIndividual",
+"relation": {
+"value": "Attorney"
+},
+"gender": {
+"value": "M"
+},
+"birthDate": "1987-12-08T16:00:00Z",
+"contactType": "ACA-Contact",
+"middleName": "sss",
+"preferredChannel": {
+"value": "2"
+},
+"postOfficeBox": "123123123",
+"socialSecurityNumber": "aA-123-21aa",
+"recordId": {
+"serviceProviderCode": "BPTDEV",
+"id": "BPTDEV-DUB14-00000-0001H",
+"trackingId": 0
+},
+"faxNumber": "12313123123",
+"primary": "Y",
+"phoneNumber1": "111",
+"phoneNumber2": "2222",
+"phoneNumber3": "333",
+"id": "1048",
+"address": {
+"state": {
+"value": "CT"
+},
+"country": {
+"value": "US"
+},
+"city": "2222",
+"zip": "AS12213",
+"addressLine1": "1111",
+"addressLine2": "12312312312312",
+"addressLine3": "123123"
+},
+"typeFlag": "individual",
+"suffix": "1",
+"type": {
+"value": "ACA-Contact"
+},
+"status": {
+"value": "A"
+}
+}
+----------RequestBody----------

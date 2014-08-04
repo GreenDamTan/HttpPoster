@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=http://localhost:5547/oauth2/token
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/x-www-form-urlencoded
+x-accela-appid: 634986395732703910
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=grant_type=password&client_id=com.accela.inspector&client_secret=2012122222212102&username=admin&password=admin&scope=get_addresses get_address create_report get_reports_definition get_report_definition a_create_report a_get_report_describe a_get_reports_describe get_app_data update_app_data run_emse_script&agency_name=Bptdev2&environment=DEV
+----------RequestBody----------

@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://accela.preview.int-azure-api.net/v4/search/records/?offset=0&limit=20&key=81C6AD43-EB7A-4081-9E19-C6D88A76C6E1
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+Authorization:0afFi35wmurSe0gy48R47Y-Jaya7cyTLLUi4Wv8IM0YZQIWwXvh7XL-nVrayXyE-ZY-RDtRYwz8YSd7L_Vw1Oaq7QuYmOOtvOleVTUevXoy5hYWzGXCYSaY_JlaoOgiuPTwxaMy468rcuX1cEe2Ax8vx6l3Qo9NigwrIIut03M4lJMKpag0t8YO5hf_SW93saZvB-u06qdpy6l_u-h7aIkrWZ1LVf_UJ5Hp2YjhblHTBRkeIyXh5cmyngLUXlJS7CPjpgIkqlid2Gy_0VvRPeU7OThqgyjQLcUTYcLAzhophQNrm8gyhvJtdPOcwY-KDxnARqdjAr4R3RaFRFbXdQro1MSFYITLuz7xrprAeu3baMRXH5f4OBJHYtIx7Us-hrycdwdVB--EC7FkbYc8exjV85vwTIlixnNhRqkKf1tbClRHb6I8pPSMrfJwQNn4nTeaPMtE8Q-nRmyOpLE8OFr9FV3jl3OvMaLK90hNv6BCHD6XpzUjnNdNc5cMWTf-01w6CCiMnnU9KGUo2L0BolRxTiBxf5Rz3YhPZbzpIBGHr_4XF41kLy0ptBhezasC1sBXjH-86avyzMt8emr4rVEK-npY43fkq-BGwHfw-dMySvu50IJjMb4acYs4UmBOSXOJoyVv9eODGqSfWvuTMcg2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={}
+----------RequestBody----------

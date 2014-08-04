@@ -1,0 +1,13 @@
+----------RequestURL----------
+RequestURL=http://localhost:5547/v3p/records/13DEV-00000-00RVK/conditions
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid:com.accela.inspector
+content-type:application/json
+Accept: application/json
+Accept-Encoding: gzip, deflate  
+Authorization:3E1kbkaZmcmygh2IYpXw2VYSYl8HcwwVXqCbbPvJTMzm3pmB8HEN28UIm90gaeoBgIxirzGNKu29XJT6PAMTaJmrORhKO09QjpxZ-Wy7EAPu7PzGhT8xVQZZoYHc01chw09unNa7_CVub1X6_79_byHCYTbCkCfR5ESAICrJ5Yd_1bYgPze4tOpuFWBbSYFl0AlDQc-OKFyoDw9l_NJFJ2-EUcimrMI1f0YfGVTvUE9cSgwAuuB_AoZveLzPzHW6nXSvgspYRCH-uSpggBDr423SHFBuehg0AFkG8vnmC4FZhKZaZZ0OWPLmk7eYtwew7YX1YcIPf9M1G5DykSo5DRaxSqpOzftxLPuYIk-L5rEsgnxVcJFLsNzcE3Jr6PkaqseOk5d4pN2l5Fb64xnecRZ1FVkLqQHU7I7RB3jrpGe4ZTX-eetJsnTNn3Fs0NFBg3-8rn5jONbU_slPzRaSbdaI_BnDbFN_f_Rm0PtjWc4sfNhKGW9H65FTZKAQsxAEd_Bb1imFz82rx1Kltqprxs9nqz6leNM4NBz6nmkR08LTVd60lOG1Hcu1S2KQGU3jFnT6K4UYnCDsHfZB1kzfpRNMEOzjNLBGvjqYSClsYF05eQypC1XuwzBvf5Iv8KKqKSeeZ59NZUdRo8l8K4-nfRLRmCfGkqkL9B_9PbckQdI5VfNQVADnaCGFLu0lJ9pD0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

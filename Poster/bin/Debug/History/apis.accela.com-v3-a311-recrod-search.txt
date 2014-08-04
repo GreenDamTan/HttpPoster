@@ -1,0 +1,12 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v3/a311civicapp/search/records?offset=0&limit=25&lang=en_US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.civichero
+x-accela-environment: TEST
+Authorization:scBU65DWBsopjG5yvV3TbMIjK7C0kuPi6byLBEnZhtm5OXB28qKt2X56MiNV_iQQgpSu3MBya5JPIc_z0KMWliUjGi0r6oyV7cdJN1KY8oTrjbowPgnK7uykpnqJuKE4OygO8u-jh3orT_IpKnCp4wMrudAZNF2qlI51cj7459_T-c04YfSkuXkDiehPtuqlWV8LtzfYcmGE3AZGzM5xrYh6BTytm1O_0ZAOcyaXFWAz_LXNNHiNVJavlQP-gBUhj2vwn9g1WOBiXIaawEKcjjlZdd0b98_EwUAp1HVFSzcoL0Pzzat5eNtCMsEvdy3wJ_-epO6KbtRHQAb0Sjaw6C3Yuesrr6hlIdwXIrnMAvR0MLTZk8LtGLld-q_ob1lO0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={"filter":{"bBox":{"yMin":"-19.80057647342478","xMin":"-174.24767922610044","xMax":"-47.68518593162298","yMax":"80.84616746263447"}}}
+----------RequestBody----------

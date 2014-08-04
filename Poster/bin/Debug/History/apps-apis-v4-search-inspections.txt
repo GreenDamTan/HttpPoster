@@ -1,0 +1,21 @@
+----------RequestURL----------
+RequestURL=https://apps-apis.dev.accela.com/v4/search/inspections?limit=10&offset=0?lang=en_US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid:com.accela.inspector
+content-type:application/json
+Accept: application/json
+Accept-Encoding: gzip, deflate  
+Authorization:F4ryRV0jjmKdRp0UFb4kLGD20aU4Ngo4JIvKnKa1DK4DWKRbmZAJ7oSkyhim
+flI4wqgFcHzcXv9-c3NXYNZ4gDEOEEeUebQ-fWNhNVrWCuZNIU1lTNMCaETU5INefQ8Y5UGwiWG6JdvWKogGggIFIZRu_rDnbBj4Y_QAjYdlzWbFtsit2kbBNHIxXIDcFg1bREsMPiwNnoSOfhH-NW
+LFczbi7Kqty3mV16z5-c-NINh8Pje-fd9uKv5AQiANMI1DCEgzZGUa2JN2vktIoGnTYDsWFVZTzLf1OFf0KjVJt7rrzWeAH-INxJeXlaZHhaYcCpFgWCZvy1svDUADR7jA2oFxfzaRq43QLuC2lzf6
+UvfHu--KCvgwBnqwMziFQ1Bj4MRR1H5Bc1XDqs0RHrW2v8L9McXU_1cWStErzRbtX7pR5_plz5h2Rx9mTjZt62egb_yjcBgMX6H2ffu_IyVAvvlPVLL0XzdddK3Nzj7-CcRC2EbX1z_opiCzvj90iq
+VhacxHUfNuRfFvnclhPiAjViQdUWY55tuXrPSFCGMM_GPTW4yhiNd17ncqtZTTkLf9oekc53ci2p-G5-oYVoqo2Q_Bt_mRsg3C-OASSmWjFw_q6xiNR6hyePaNeshl4j8T0C3EezGSs0lo7206CJWa
+2NJTv-rZZm1S3fn2ekFJU_KxZOX2GoGxxjpGXl8GksNeUr3DE7MqrlYi31AESDlsXY140_ToW6xy4-8eGI5r47gIGP7aUJPEXU5Cr6fxpUqRyQUzpVfUsxOV4BK-8MmMGmMLIR5CA_F6eV5pQi0Nid
+sZgAxa3OEDy8W6uPu8ygaztXlsXQVcENPzHd9FBEMEwhrkvXYNrfEHUNWNZs201bqyRKEk55wBxLKVcmsCfJ5O_e7iRbmI2Iys9M1tncxzLZKzbPyCxnFcM6Ia9eaQdQ2XwD7yok74koWZptZzYpXM
+r9va7k3j09b5Jh7rRH1SfRaog4OdAZyff54gSyVW05Ssu_QOWmdAT6e5wnWcS-YuBB9Enw2Jfkckrt3vPn0Nel23xi_WGFD8wEj3KbRWVUxTywoNeNk9lZAXNYwPPWlCiSEVmHwYFtbdO8NBaLDpW_
+n5x04NKr59LNydnhkasb81
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={"inspectorId":"ADMIN","scheduleDate":"2014-04-07T11:42:07Z","scheduleDateEnd":"2014-04-27T11:42:07Z"}
+----------RequestBody----------

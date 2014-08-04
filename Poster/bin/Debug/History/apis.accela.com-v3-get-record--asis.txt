@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v3/system/record/type/Services-Unit-Check.cOut-New/asis
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Accept: application/json
+Content-Type: application/json
+Authorization: BGP4AkgaR1dd1V_RJVd-RTaOgbg3nKDBhpEZD5QOCK5dDSWTKH3ojCg_cXzIPYwqddciJLJd08t0klF6lkZa1eOKJjIRMzjsphkgqIOK5Y5HG-Ic23P5vzosoU_VsKvJCxA-CotWnZcMdJolyzyrKTEZLqvtXYyTLxXEoSMviv2E-GoGt6M8hfTf_6U0WlDHYjtObdImPBV6gpQjcno_qivVb3gal8uSp3jvCvOSrwlpnjW5EEJAj4x2zOba8EdUnJJdRryzDiNgvXJyEci5bDutiC1VqXMOtFx6Dju2VgKft2025ddYpCSsHojCxeN-T8Rl51maX9D39xjuZqrn2-DY6brzn5rgwwEOlIsre4ene4TbVbl3-wy5yD6nSC63etdzK1hV1zsEqNWKjbRIuLxSJCoTXeEBLW839IfW190uQnx3spxctUf-j_7DPL8huKusCzITIFTXakn3McsJ_ApnfQMTqxcm_RfvnW8uw6tU4UEood5mVvnPvclVpJeIjYWGhukNjA1fQ2zfMEsf2fAzBtZ-H5fNss6xiPon_-xMfSQwZR1olXQieyzWPbqXB_t8sNl2KFckYJof6b-LBrZOdpXeIgBCHt1jV9Czq6U7R3MJK_TUdDgypcD4tgXrOqqM3NhUZlkTchHrqpar6405nI6vN_eQrSH2YaL61Yb-0WEUHVGY5GqugkIkz3emvz3uDsY9wi1m9uacb2IYKlV3SC6fPMI7506yeSi2Vh23BfZOdsy_WdGajo5KsjXBo1-aRmMVS-5KG6K0msFGRa1TEG_VCKVuwfCRQPX8hTXPzrn1g-0Ve1LSfLuqgR8yP4fR2aUnZ0_1cvFpVuZ3r94an8G7AXRK-2jUXcbzoiPpwP9A9NSjC9LTNYHPDRY2tmutMQcIISuBSKZnWk3ZvOQhMVda2JXZ3jpYJm-FqL2-Ak1BfYhJyiSZ5MGy4CCg0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

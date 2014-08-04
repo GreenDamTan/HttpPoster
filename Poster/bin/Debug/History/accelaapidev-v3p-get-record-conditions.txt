@@ -1,0 +1,13 @@
+----------RequestURL----------
+RequestURL=https://apps-apis.cloudapp.net/v3p/records/14BLD-00000-0002W/conditions?lang=en_US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid:com.accela.inspector
+content-type:application/json
+Accept: application/json
+Accept-Encoding: gzip, deflate  
+Authorization:rcLsgHLFcp4SeCw93qVXY1zi0yWJ3hFZVpcHZ0Y7F5K-PaHTuc_BEDXRauJvnnB-PRDUUOFl1UzeS3vdsOTjKs8mU7jaUb_9Hnj7UMbJ3T-b6pTM5Z-9h087Sg1vmapG1D2miYj3UfRfrxD8NG8Wh5_ibsvNWY56u4D93R-mxjcXdJbiL-G2wch0pJGcag_mHWbFuUqRr2yR-tnrDNhB1YZze_hl8pGgGLm1r3RRfLyXWmMW2LbsLeM8vdHGJBkjWXGz0v7hl9gLbCPliivg-4DnRiW_v9oQtDG9LwyqgT7rrtdjdWvlylIw6mN8PoaaI6qtYTBYUuyDfv5izQuwzhZDwjE7JGIQhksyoBSD4oo7lPDtApb3P858YU_0dChoB3E5U1jV94Tyx2iah6damKlqSYIpKMLGvOkHDZB4gsNQZryNgFskhybTDFVBQOcdVakKhyzIbQrzrV3324LQTg2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

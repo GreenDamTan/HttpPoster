@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=https://mobiledev.accela.com/apis/AuthService/login
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={"appID":"com.accela.inspector","agency":"COSD","userName":"admin","password":"admin","environmentName":"DEV"}
+----------RequestBody----------

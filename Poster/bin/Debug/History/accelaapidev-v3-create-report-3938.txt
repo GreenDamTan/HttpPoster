@@ -1,0 +1,19 @@
+----------RequestURL----------
+RequestURL=https://accelaapidev-beta.cloudapp.net/v3/reports/3938?module=Building
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appsecret: 2012122222212102
+Content-Type:application/json
+x-accela-appid: com.accela.inspector
+Authorization:qwrI7f0bA41oe8Yx2ddOSccKeGkKpgi4CNvX4MlRDwNjaHcSR3O1WCN0p8VskaRbQHhYe9TNpPz39iKXfz1wWyTSRXOeBCs5Nf-iDWgwmZHry3oSenq1LD-zHL9qmuTOGMPOjmTz_MGnzL8kmlIT-U3hPhe8GibAoT747GR_-Xov1owy75a8UNy5EhSc86BULBhOPbL4dpm0UYBiYJrcHDPaX8aVKQS8axgLJwdFCLBbUvniSdteAWyY9qVFb-bpXzCkeLLgepLBAure3LApxdJHcOH4pf8yLruzhCD8ljUaVR4cNlLaLQeLKyVlA_uVM8ktQeyDaCKXIONBbqXCmycoG0dWAvfDalmztlVdt3Z645KtGAUBhx6cD9eGkO9klHhciFwO_DwONKZlcvE4HXTxgKi54Nw-TKHIR6dIzn6E_7VG1Gi8Dshiper8UVke0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+	"parameters":
+		{
+                                "Module":"Building",
+		"capID":"13CAP-00000-00001",
+		"date":"2013-03-20"
+		}
+}
+----------RequestBody----------

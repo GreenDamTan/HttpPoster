@@ -1,0 +1,13 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v3p/records/111-111-1234/conditions
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid:com.accela.inspector
+content-type:application/json
+Accept: application/json
+Accept-Encoding: gzip, deflate  
+Authorization:z43g5QyHFS7OzPfD8SnELS-gZP6OJ46eqlR1jAyeqvUnCpPE1Y6EfijrWuB7uk9uv2fbFDXlzVTtP5HpnIfyifQd9v-me7y1qF0MEiBCuDot3ry5wlEnWvs4vPpwCX_uNQOcN-tkxz4PDm37r7xQRNxdEOP27BPUmgu-O0ACELxJMrNDkO9aXLaFR24uOw-C-73M-iNRuE1pN0ZwdZNMgvuTM9n8ZAHNT-tgeXZIiL0tuypM8pr7tqajkiYGprpGJSWJKEc99beIyB1OqLbE-i5mKLDWgonMsKtVc2gR6Ou-5lKEDBGQzyUJEj_lDvLvSl05MSHZaTjkqaHIlT-KzqkrsXNUrva1JHELCuv9o0MctUtgLmss_bV3MLD_NoInXssYMgnEUcYocIp1N-z3UQ2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

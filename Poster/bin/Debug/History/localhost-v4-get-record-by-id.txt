@@ -1,0 +1,12 @@
+----------RequestURL----------
+RequestURL=http://localhost:5547/v4/records/BPTDEV-14CAP-00000-10021
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+x-accela-appsecret:2012122222212102
+Authorization:jnh5qINugm7RxQdqPLS-0ArE8aIuf9oB4byilCIAmZKioBgsmntY4_BmVdY8Etf5rEdZSRQ6fAhpQg7jYdEyMha6HqowJ28QgRk6Yh8WlJuABY3DtPh5VVXhVvNbH6Hb3U6oCR8SHz-9ahAf1QkbPvjIDfa9PFa13C6hamkCKtOTTvZn4THe0gtlAZfnSo-hLEBEtQ_8a5Hehu-DPZE7YpmbHINTijvVHrV18LTFij-56csTb-1PzrM19iw4N1LkwGbg_5nZWpy7DGblx8j-mgHUcHe65VgS8PG5f6C1SIOaIDq0r_D8NRffHoDp3Rjmvosm2LObgOot2DLOWusRiKvg-lsQHOkHDj9MyFswBQWmr5b8fhbTganyGaxcR0cN6vlPEnYnaf7HjSEJ5aqxn4BtEHEDHUnZWbpEXIdf7P2jhOCemFw2rlwdATAzJYbtC4gUzo2GudE7VX7mo5ZsckSSFdaXj9TL4Mz4FpzxMHU7W08v6z5HmZOFk0WsdFTFkBeEjn8ZhoQtiMRbpgnDHqnYoYiG1gSXoaAOJE3YYeVcVmoYQ_t0XTeZCQgyvX9aXM2FLgeMd2ZiM6HEdBdn2aSpGQ5RVIXSyhaCNqq5aVJP8DzEBF81gOzQlFtYWUCe1eHhy-dEfOg4mHwqO-9GDfaeetoZcKvUUBwK7rs8QOYrEzHitWIpR3H1a8QjgHqSwC4sxT_F50RfX6wSPf0wMQ2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

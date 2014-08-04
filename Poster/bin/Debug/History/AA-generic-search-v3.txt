@@ -1,0 +1,18 @@
+----------RequestURL----------
+RequestURL=http://10.50.69.12:53080/apis/search/generic/analytics_daily_openrecord2?token=05505928332326714447
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=bizurl:http://accelaapidev.cloudapp.net/sso/ticket
+accesskey:C44F25A8EC8948E4A5C435AF30A0A0A4
+x-accela-appsecret: 2012122222212102
+Content-Type:application/json
+x-accela-appid: 634928636624650660
+Authorization:m8CE_0es2l2K8pxRfnPEiwYQSp0oHi1YXvMiR2J4LhNhY50BQXNjpI8JQKT2Bd50a71jQ49V-0tEmrVNqayTLl09n0QAYtCaNkZUBgeZ6B3vnpV88wSXFdFdDb-esA-KeQEouM6cReRhl7eOXS5_vzfz3d71csqKk44vmf1BVp_1ofeGVVG9qZ5HNU4cx09R-0-E81tLPCUxgYMDnA_YsVFOdsplkBEkMHW4qe47qVKJXGgOe68NdI4aPbz-CWeCB3d8UWow8t9klVYoeMejtWhHpueVlCAjjn_E5t1ecKv6KhKj5XLU19V3PGakgxr4AcPbfnGct_YcOFzIU4Pflq7QDbvzagphdxkNJbM-KwA_aQjG82RKb-ffE18_Ws1Wp1iDEg6dzwCszbr2Hhv8uMEECAjf9GIkklicxEk8N6Q1
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+"MODULE":"Building",
+"OPENDATE_START":"2013-04-01",
+"OPENDATE_END":"2013-04-17"
+}
+----------RequestBody----------

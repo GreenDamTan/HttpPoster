@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/oauth2/token
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/x-www-form-urlencoded
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=grant_type=password&client_id=com.accela.inspector&client_secret=839ffae0ee244cb4b558f252ca84524c&username=admin&password=admin&scope=records &agency_name=cfw&environment=PROD
+----------RequestBody----------

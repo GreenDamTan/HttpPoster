@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=https://mobiledev.accela.com/apis/v1/authenticate/civicusertoken/?lang=en-US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={"appID":"634780283879584388 ","agency":"COSD-Citizen","loginName":"jackie.yu@achievo.com","password":"12345678"}
+----------RequestBody----------

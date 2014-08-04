@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=https://geotms-apis.cloudapp.net/OAuth2/Token
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/x-www-form-urlencoded
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=grant_type=password&client_id=635150949800276726&client_secret=2f69a25d831141b497271ab5c7162f40&username=admin&password=admin&scope=get_account_profile get_linked_accounts inspector_app gis_settings addresses settings reverse_geocode open_data_query agencies records inspections settings get_user_profile get_ref_contact_types get_record_location&agency_name=geoTMSLogin&environment=TEST&id_provider=GeoTMS
+----------RequestBody----------

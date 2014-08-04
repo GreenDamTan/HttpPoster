@@ -1,0 +1,12 @@
+----------RequestURL----------
+RequestURL=http://localhost:7382/v3/appdata/nad/test?appid=com.accela.inspector&appsecret=2012122222212102
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+x-accela-appsecret:2012122222212102
+Authorization:27znHqw3RpfoGAIwSFcE3ecMZg7o-oikbq-ZGaCrSCwGRdo76NATd9RpVsEL7sEZnbVtg6CDcCofAkZ4mHipwQfRXm3gRKGmefuLh7aBt1CJWWr2dqN1Q6V7Ksl6jmSrBUYB2x_6k7CJPUqRjqv4cPxj6gx00UumyAZtGiznPhqXC0Ta3rK7ulLT1CINzOxl_XuG8H6B5_OICPH3-_VQ3KGBAhT96guMWNSbMDSn_X4buLU1Ni7bsEiHjZoFBwZCd6oA_jIzDLCK-_AP8on8Oxiv4E54rWmkBJ3qqtDCfSmyBG8UHno2AqnCHx87LBfc58x-7cPHrINi8AVo75Fg63-SFU2DY1t8huFS5vHegWLsI9etImdueel0gf20eNQ2dl1TPCRofZG0k6RUG3qEQOmoOgQE6VwpClcPH1HKDy1tFrJ7iX72HRa3Mlx7GQvgvwU2mPlpmY_K8Ud-R1UCEGCZoMEYAXsS4ooUFFpgP81jSCk0VzxkX-AqibHIvEZghdw9FUSv0XqQprxN6CZB-4TRn3sD8euoLm9Q-2-r1CrO8D3sDBPsR2lrQIoGMJcyUZKjzoGwRvpyF6i-rtI5OkP1iFTSU8vxN98LAOaJokM1
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

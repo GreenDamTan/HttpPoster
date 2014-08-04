@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=https://accela.preview.int-azure-api.net/oauth2/token?key=81C6AD43-EB7A-4081-9E19-C6D88A76C6E1
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/x-www-form-urlencoded
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=grant_type=password&client_id=com.accela.inspector&client_secret=2012122222212102&username=admin&password=admin&scope=records inspections addresses documents assets settings&agency_name=bptdevv4&environment=DEV
+----------RequestBody----------

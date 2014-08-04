@@ -1,0 +1,32 @@
+----------RequestURL----------
+RequestURL=https://accelaapidev-beta.cloudapp.net/v4/records/BPTMSTR-DUB13-00000-00006/customForms
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid: 635146329510021179
+Authorization:yxGyetKV10oB6CPC8LJ-WjoN1kA0DcT_mk0uDhck4vrCDuLa0H9DxH2qv0PtCHcWns6J_RdAkxYYJUEFwT3HkoN7yM7rxubk9LgYxf5ww0nBIbStHtkgoi2Nog_8ZDax7mmgNFolEHvFO2U6O_ddvDbe-Ckw7u0sveGdDdTPOi6wM6TpGLtKNrNuWcBuc7Hm6udooVxpQGZM8uwias8rsnqKUeyiNvDS45GeIEGBXJHzoWD8eSnWggiXjyrDVSP6zWgE_lsKoRqxX0rfFAVfT1j3Iau3AFiiOzoH9kTcQuOPh4AFOOX201PqaV6Nndu8glUwvZo2jWXo5E4UMHdzWBT2MJ66YOeZ7rd-4AigU3l173ESEX4W2MTPlKEgJ70cJzhrYVqXfLmURS5dmfihukGG-IcYVrOMe_1prYtSAHYGhI3WsRfzLmeR0W82iLnPz1U7IMUYffyFNjTKAG_QpA2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=[
+{
+"id": "BLD_COMM-SITE",
+"Flood Zone": "1",
+"Base Flood Elevation": null,
+"Disturbed Acreage": null,
+"Not in Flood Zone": "3",
+"Total Acreage": "2"
+},
+{
+"id": "BLD_COMM-ZONING",
+"Planning Case Required": "3",
+"Parking Spaces Required": null,
+"Parking Spaces Provided": null,
+"Zoning 1": null,
+"Land Use 1": null,
+"Zoning 2": null,
+"Land Use 2": null,
+"Zoning 3": null,
+"Required Planning Case Type": null,
+"Land Use 3": null
+}
+]
+----------RequestBody----------

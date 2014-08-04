@@ -1,0 +1,12 @@
+----------RequestURL----------
+RequestURL=https://apps-apis.dev.accela.com/v4/records/BPTDEV-14CAP-00000-0005I
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+x-accela-appid:634971903722009828
+x-accela-agency:BPTDEV-ENG
+x-accela-environment:PROD
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

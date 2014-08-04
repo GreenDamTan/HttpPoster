@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://apps-apis.cloudapp.net//v4/inspections/{inspectionId}/documents?lang={lang}&userId={userId}&password={password}
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+Authorization:wCFs5Ir0TaFbRakimSvT0f-ZYiyjL7OBx_mdhadeMn6wsSEYl_rbkc3F8QtR4t-uLNiqSnmmtRxlLLau-1Zf0httfqw_TpBNwMmV95quVK2EWVQadiIWVkb9ZLTG1rHRZfxDeuXjdiqgYRrbTyg0iizRa2lLociZpa3sf7swB1mlEov5AFKlLyf-vXz-gtYhyJi3soGIOaHHhQsinrv_1s1ziWi2t0WLthVDRH_06S27oof1OkjhD7ocOD8tUWGpo9HMvHTaHGEpcFcxRUbEFmK8t9DdTvDzN996ZEpYEfWbP-szcl1jO0C6_HoGHQxgUao9JezNoNF4w_5wWx7MvYa8qzYUT6fH2u6Uw6rPYGXOTe3SRl-OqP5sdBZ1OQMNg9zBLy6jcnDwvtcxzgq7kZrVDY6qK5Fi8oj7WatNagAO56DtLWkXJ5ecaqAnj-Fkp9_NS1Th-xE3XK0l5Me2QnA-ZMuMhi0nyG_5cJvt4SRQJeHoj-tCGYM7qLpXroGjSBp5ojgGb3ymgwBZbM0tA-07pg9uJkkimJsEvC0Xx2GxvvndDJOVRabWztkLdnPilNCAJWT_D1B2dQhoLA8CvITlh2_3FgJ5vSibUYRq2HTUVnFeacpxkKq1ySx0Obtiu-GzvKrHZBskNNJSppVh11SPjSxqEhXpyizjXebObA6dERL9MrZvtacL9_b-8iuk0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

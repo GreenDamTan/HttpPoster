@@ -1,0 +1,13 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v4/contacts
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid:com.accela.inspector
+content-type:application/json
+Accept: application/json
+Accept-Encoding: gzip, deflate  
+Authorization:z43g5QyHFS7OzPfD8SnELaTf4QF1HdkIuHHqhRPn6Ti-FW866pyV5pqeE6l2SHZxpf9ANwnMDffKFxKvKt3wTCgMBCY7foTbAvT46EmSIjuJIMakrsD5dVsHe514zltgXEJhATsoYhhEAXRBhVmEXd7yIROdbgAXMIeY-KyBdGekB4BQbaIeK9khRjisesUNkCoUtj_qef9vDCTMju7wP5YNvJmPaL6JUgRYl40AYfW8kgNF0L-9FAQMGd6NWxSYWVens4ka1XbbDLL9FxnhuMAkzZbY5vA6S_l9mtZOKpEb2KRdTTq7LeGhoHFslAcR5QOBMdK_5GysvDnvV3h8SyEfEtYgMdOQB-ekJmu9_d2cvOSOdDee8C1mLiZ6LX2VQmCR3w61WpuPreaBo3_ZdF4YCXReF0_x4be5Ft0gnmXMRocE8_GIBOBT5OPmXfCX0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

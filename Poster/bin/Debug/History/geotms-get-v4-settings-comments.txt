@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://geotms-apis.cloudapp.net/v4/settings/comments
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+Authorization:LJbMbg8m4ZdTUfG6VyCUpQ366KCe2Mv-YhCPiO4A844-JxXVwzrJFEvGEJzJUWJsCJI8xTcGmmzXMYEezT5K9D9aOqLVxmff9vHfe_FvnaXWzvI27XzS7zh0_rTpe2Bn_58JhCHrY6fVoYI4Iuy3JS1OVYoA1V0BmlGygITYVArNDJYZMe5sYTvwxp_SnQO8Eoli36bbxQgJRp0VXEsa7VnkKacgeXQmHddgGBksKT0OdbHqaBcUApKEe-IzZX-KukHrAIDx8L1KbKrB4bTqA1hjUd7pd-ZjhX2N0xoWYcjcd-zTs3Eyfh350KsfeEM4DNc9XCAlh4_9wrAgdh4JWsbn_NF45CLKRFxysyjgLV4BUVkvjeczTabgdefevk4JsKx3JrRr99WQK3iSWNJMBfF3Ev6crL-EAqhTHDf3G9tQF97U98T7EuW_GNrEGzYYpOsLoJUBd-tsaq9CjwcK6kvSwDyXRizrPEwydyA3gwOME2y-a2AhE-0anHieq4dGSLlp_39My2WbcekZIW6vvf5qbGGbtl5xyAIy-p-qvOme0j8hShZgtpivIgCbc_RSvFxau8rsZ0xj-1PgUCur11LS2iimeHpONgrWlsN_fxoPaX5Gd_LpVKDSJOEHlYq4exrd337g6haI5XnXnK-Np7Gc02KFR-P62eFBSgBC__Xfq3Ap3jP6QsgF4chRp-cuWV-3k3Ri3obTVv04_pdYkw2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

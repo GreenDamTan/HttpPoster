@@ -1,0 +1,18 @@
+----------RequestURL----------
+RequestURL=https://apps-user.dev.accela.com/apis/v3/aaauth/acausertoken
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-subsystem-accesskey: dhHeALUHMuBK+kC5lQktCwJINpSpLGIbsm96LFJ5GVOJErOH/TIRVQO+jh/SaNlMZ/noLpf4Zdd1d3Ts/muWCQ==  
+x-accela-appid: 634922733084115102
+x-accela-subsystem-caller: jackie-client
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+    "agencyName": "SOLNDEV-ENG",
+    "environment": "DEV",
+    "cloudUserId": "2a34d36a-9fd9-4e52-b7f9-658b83db9152",
+    "autoRegister": true,
+    "forceToRefresh": false
+}
+----------RequestBody----------

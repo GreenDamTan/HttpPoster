@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=https://apis.dev.accela.com/oauth2/token
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/x-www-form-urlencoded
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=password=admin&username=admin&scope=records open_data inspector_app assessments app_data agencies inspections addresses reports documents parcels inspectors assets gis_settings conditions workflows civicid professionals settings cashier payments geocoding owners contacts a311_app&agency_name=BPTDEV-ENG&environment=PROD&grant_type=password&client_id=635114607991003326&client_secret=d7e8e9d9e8154a569ebb3465f6ad5e67
+----------RequestBody----------

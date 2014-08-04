@@ -1,0 +1,12 @@
+----------RequestURL----------
+RequestURL=https://accelaapidev.cloudapp.net/v3/aaserviceproxy/reports/describe/3938
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appsecret: 2012122222212102
+Content-Type:application/json
+x-accela-appid: com.accela.inspector
+Authorization:pKNk4AlZDfPIVl26G9IZIwMYzUn27MAWIzqc0it8ekpftTMVS4wMYfeJqbkCzGX9yccmVEIQNvKdcpxcSkyxsLHRE81mFOKUrVINJmv8yeAR2Js576Tn7E4ezRGMp2RdbffgpFm4nbBENmWMKsAE9b4pCOJxpfjCyp8RkSlkzAHVgX0KEm5OIumBZlNYt_kIzC1ObRD0A0Xn7XRxArVLJtzikixD2Qywp2uWVKzRk_vUHosKWDXwoTMXfWqCHR0f9l3vpquBA9-QLW-yps4Q5efpr6kl87GsJyjU5d1Eu2CGlVYUw4Md_bIoZHr4ogu2mKdZK6H9-C3nLkHrbzGzvJhsu0UKV36JIyCOGWLOp1INyLIeTLowQ9Rrdg24G9UpyuBrOL7DOPYRLWQf4ZSBbPYrwW8aOSNq79BJNGCY7_lUSX4wDCgGM2XhemszackrEb0QF13W7EDNS2rGUjcqSNVaOyR17fBKnstQZy0jfv1lkVAyYmKxUiXZU6Ys6L7n7X-mTFnyRRSGLAY1cbefDMLrtSANXhcRYM-D4jpPcuDsSRnEaPxJ_L5heYnWF2ZJMfODPFTQGR5tVA2vJ-o-ng2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

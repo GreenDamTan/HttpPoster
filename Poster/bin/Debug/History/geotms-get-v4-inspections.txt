@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://geotms-apis.cloudapp.net/v4/inspections
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+Authorization:LJbMbg8m4ZdTUfG6VyCUpXV8B8m4-s51e8iLLaftdxRq14pljAJMjr2BLV3a6VztXz_YlHyMe__7giC3grPcckkpDm6OaFmDnHgUDkffzX3eTTaOZeAe4ILXQkPZcobwihhsT4Uplzuk5-SAqoeVPOWMVwo3qMHzwXotaBvM1wsJ621hLrMDjFC1DnI7YerGUEjbDr6lZjgOZeMgPD0uz5VlcHqEe3G6L5uD3PKVVQkPAy1pxih1Rn7N0kxeYNxXVe5soncG6aDPK5P-JHuzmasFQnoHxeSyWB2_gZB9FOw7w2A51KZKgboDdDMvfdR49yq9v9ApW4dES_OD7DcVQnSlb2kj9XVwrkaunyAjVew36pMQAYJxRDBSSXEiyu-1I_lpkMOdhS7Xl93kV7rcL72dPPy7EtJspjadKJ-HMAP2ziUJWN2iQFZa2_VOITkhe4ZM0Xuzu1j4nFM-CNPVlnocKGWJzMpgtjfDcKgnhqpBvu8b2Bm7UKFDKCWUYFnHI61IFVljaL2DJWljIg1DE1sIiL0gj5i_jhj5aaCuiFVf4R5MFXTXPQXSHdGxdpCwvSxNgbrFa4CLX8DNYEjqeUhdoyDK6SWyfspTkjajpV6ru76xEdux6Uj6pfQBm_GTMQPFlvRIkKbEuwN_zSsb_4al0iLblWmvs821jQny8EOiSlALvaObJnPf5BDgzuqa0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

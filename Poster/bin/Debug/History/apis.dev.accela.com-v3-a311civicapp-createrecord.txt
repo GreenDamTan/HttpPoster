@@ -1,0 +1,50 @@
+----------RequestURL----------
+RequestURL=https://apis.dev.accela.com/v3/a311civicapp/records/?uniqueID=35ACA96C-54FB-491D-8D27-6FCBBBB2BF99&lang=en_US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Connection: keep-alive  
+Content-Type: multipart/form-data; boundary=Boundary+0xAbCdEfGbOuNdArY
+Accept: application/json  
+Accept-Encoding: gzip  
+Authorization: lFYQk24rT2kXvIsGagaD7_npq5i9-xDv0kmPHdlAPZtWNDOVqtqwpd1lG0_g7a98RSQatU41JENvRqYJYO6vsZiOSzwAAtkolXjlSJjvmnCpOBWKf0QunlAFwvvIcK4flxf7LG3WhuGTZ6kNM_OiTrq2xwjE73V1m5pfKVzIwK7duQY3KjjbWfe3p15G4sgX5aW7_Kw6Tx1XDLyIDWEaU3-gW_UJwng5RyykQMKc8DICVZLxzfZNrH8AXQPTQKEMGlio4Dae26q-eDf7kpSyoVG9lrq7V5vxgmeVo9Frh4f7Qw4ReBy8ttM6k5nXxqXo0Bq33w2okymkCOERqBlSQz36PmEfCp9V0usosGOvgZRiNKKaxbWKLrLlOtTaxHP8TUXDqt7WNO4AVaseqfdAn7BsDLjCJ8xeicdwkxZHps6fEhNk2Bu0nLcd-WADUFy7tqoQKXVB-2MPBEDESteNQF3aau-KfNQgX-5KpHJ2L3IDF4ZxL_6gXX-MEgoThgMZXzH0f_oV7uyuFm9ItTmXozGGkf76W95EkXzVU08dSua5deRiuGgb0b6f4F_PYUUlNq3qUOuw4Qy1fvZ_biIDuURQrDPRQVNptgPKpuls2xkZflLX8x2lqdgcTaTzeILEZp2uDb5NSQtTRplprEnLHeVz5RW1bdJFVHn1Am2E8vrdQoeKromwe14H4R3yqmNZt_1oVYu68gNHwEXcN8NIdkxOZlcq8EAciXQYmEOt9Rk1","token_type":"bearer","expires_in":"86400","refresh_token":"XNlc!IAAAAJRVKb4_3hblFFQvd6n3iwK5717fCW4UUzMWfGUNjgoM4QEAAAFy5I3-5ucYOmrndFBPnYM8xQ4oQg-exWoGOeJdWzt1VYiUFs6QzH5UiLh-NqwNle89pzw_e8sQ_dGeB4aPTn4GdzNWRTf6ArmkpbRFWt44MbD9dUfvTODMEJC6rEhWKOuNFsZeCGNNcktEODsUW04IwkNnR1If3GykIxR0kdje2tRyLkNxGxizjqysKNf-Eytpjf89yQljnekFs8WR4a5je-KZqEpjgmoWgr29C1zEcRkdbz5bjIn-UqPcqMcXum9mKKoz3vDp_VdJ8CzHIP21JS2oi_AbSxgvr4usnmRcIeT6mP8dDDxBzqGjX7JEuIlHPDHY7sJG_eK2j9Nl3TBKkqtIeKx4_TQwL9XehwpyA6h454SExuozSU8Hvs5BtoXaKaEer5aLTX46bfP6tSNvNKI7Vtgk08vPh_8K1fLya4AZCGZ1a-CsofE7gRfxGEtSkavjt3ALD8TqDWW7v-OtaKyzZ4LjLdjUJK38AqNKBCSESUQqKshA2qV-jw_jr8XdasXauLARDV1wuwZwIsHhfLsal8DTe7jSNILpCdQBjmWluDcdniZFDSKV-SbDHGtR9Z1rkOIWrbiLfnApHkT1XMCqWcPPcRS9X-rshzswA9cbrbLsFWDTAGv0DiQT3UU
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=--Boundary+0xAbCdEfGbOuNdArY
+Content-Disposition: form-data; name="json-data"
+
+{
+  "createRecord" : {
+    "type" : {
+      "id" : "ServiceRequest\/Graffiti\/Graffiti\/NA"
+    },
+    "description" : "GRAFFITI near 2003 Camino Ramon, San Ramon, California, 94583",
+    "address" : {
+      "addressFormat" : "2003 Camino Ramon, San Ramon, California, 94583",
+      "houseNumber" : "2003",
+      "city" : "San Ramon",
+      "streetSuffix" : "",
+      "xCoordinate" : "-121.970582",
+      "yCoordinate" : "37.782090",
+      "state" : "CA",
+      "streetDirection" : "",
+      "streetName" : "Camino Ramon"
+    },
+    "contacts" : [
+      {
+        "fullName" : "Dave Brewster",
+        "emails" : [
+          "dbrewster@accela"
+        ],
+        "id" : "bdc195e8-d521-47d2-8e51-1dd24ca2534b",
+        "givenName" : "Dave",
+        "familyName" : "Brewster",
+        "contactRole" : {
+          "id" : "Complaintant",
+          "display" : "Complaintant"
+        }
+      }
+    ]
+  }
+}
+--Boundary+0xAbCdEfGbOuNdArY--
+----------RequestBody----------

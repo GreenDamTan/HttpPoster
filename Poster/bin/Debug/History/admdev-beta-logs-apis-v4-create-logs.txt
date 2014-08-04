@@ -1,0 +1,30 @@
+----------RequestURL----------
+RequestURL=http://accelaadmdev-beta.cloudapp.net/apis/v4/logs
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+accesskey:qkU4zb64gQcin0CZhw/I1f0AtmNjBvE20h2cHvZgnftxiOvMcr8arkzbKXNqQ7XiZtCGiUsM+bbbb0iaG4zF0g==
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=[{
+"traceId":"131220020936422-c089b23a",
+"client":"windows",
+"clientVersion":"7",
+"appId":"Jackie's App",
+"appVersion":"V1.0",
+"envName":"DEV",
+"order":1,
+"logLevel":"Info",
+"user":"Jackie",
+"agency":"ShenZhen",
+"method":"createLogs",
+"parameter":"id=1",
+"response":"void",
+"callFrom":"httpposter",
+"callTo":"v4/logs",
+"duration":20,
+"message":"you are creating logs",
+"detail":"no error",
+"createdDate":"2013-12-20"
+}]
+----------RequestBody----------

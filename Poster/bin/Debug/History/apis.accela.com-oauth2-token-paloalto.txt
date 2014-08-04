@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/oauth2/token?lang=en_US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid: com.accela.inspector
+Content-Type: application/x-www-form-urlencoded
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=deviceType=iPad&grant_type=password&password=admin&client_secret=839ffae0ee244cb4b558f252ca84524c&scope=records&agency_name=Achievo-BALTCO&client_id=com.accela.inspector&environment=DEV&username=admin
+----------RequestBody----------

@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com//v3/a311civicapp/records/123
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: 635046998338319093 
+x-accela-environment1: TEST
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={}
+----------RequestBody----------

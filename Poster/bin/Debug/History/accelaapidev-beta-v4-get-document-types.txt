@@ -1,0 +1,13 @@
+----------RequestURL----------
+RequestURL=https://accelaapidev-beta.cloudapp.net/v4/settings/documents/types
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+x-accela-appsecret: 2012122222212102
+x-accela-appid=com.accela.inspector
+Authorization:Of5ukXelPyvdGNdY7zJlCjh6Kn-6N_USWx757xXJL2dOZ-k9hpWG8YG4eqK80ywmNNH64Et3JevGja1m1p3gPWkGplTVk88kY4HKabWQPKJVR81M7Q0lwgflJTDb3MnoPWb1VtQn-Q131DjF4JJsmNg7az573Ow_K5065NazZFyUHtAq9yZpdoiBLZKqL4MVLqIt05tiMg3rdMke3mNsWx2hp8UTjBp9dfvFpURI-gpjSnqLFK4pSzwrQ8JpenmQOHgqW-qUwATPPpQRunGyHLUZrCREKbqBQmgIQsB7sWk5_vyEQ3581uwczE-VsnB_B50MqV4Q7b5Jez1jpLSUJyTK81n_MgLqxoDseh2C2pPNXK5DiqsXk-Ns4kaHcURCZYAXuH0EK0-kxNEOpKRBAjZ1jcoMWNtbrRbA3mVcYPDJfYIqybInlNRBoLP4kzeegH0ysYA4HLiPU7j4P4xuOQ2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

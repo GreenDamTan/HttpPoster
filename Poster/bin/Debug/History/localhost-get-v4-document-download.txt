@@ -1,0 +1,12 @@
+----------RequestURL----------
+RequestURL=http://localhost:5547/v4/documents/111222/download?async=true
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+x-accela-appsecret:2012122222212102
+Authorization:UlpJK_klQo8Y5s1XwK37-ypcCbG0EMW0u2SPP8KFGAiWzm9akLpkCcwvNuMohCOLkJBf-nPQe3OcDbzw2Bh29Rs7BMxDPLYtCAsA1h_Kq8ojpbA3GT6LRwIuES4vZscC3P3lk3arssmQe3aLEIoTGsvXQiCDbCzN7ajmd0WpoQ2gsLeMfY477StrAnaCXnRLhKwttz9V60r-E-Dds6ASjh2doS-ZKyqf2Ouuxt8Wdf2vgZ5TgfIGjZcu5QOjo3z5dDRDgWmwB1LzNXCAwDePw66qCmweOZ6LkrFEEEMJXchq7pr-qkR1PLjq-2_m5MDug7dnGSgoTlMrzHVW76dRrP1EfEVrp74_Dgfsd3JtY2aIJYlGQRxlFdUytC5XPTAvjUSs7yPpYm4P-4q08bVz1UkWvpRbkrcqHtSTzXJdC_I3nMY9hPFq7AThVqFocdMtu2Lf3foEDbBXTvi7JaEL58tGfUoBQu-TzWD5X42D9QOcucbG0IwwAzYoLs1WItwJPNzuy2cIEvSZ3ACs-Or3KuuSrM_irc--IvrBSBJ-Ul1g2Xz346tircG2EQ7fTnk54diM9j4UHLE9d-FbC53k2k18KIOionqDs-t4Zl4EKKJ2XpzCeaylHAqU3xjBDdaZPjPvhebuZdLj8UFWWHW9IFQcd7GAujkwwx_mKSqUUXGbpzxfU1PvA1yl1KCLME2ghrHUYykz7dhFTidZclGjPYUBZmD1eJNHE4MgxpLxbu0U1D5XDRGr0RNmwH0kE3U60
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

@@ -1,0 +1,13 @@
+----------RequestURL----------
+RequestURL=https://apis.dev.accela.com/v3p/records/09000-00000-00076/professionals?lang=en&module=Building
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid:com.accela.inspector
+content-type:application/json
+Accept: application/json
+Accept-Encoding: gzip, deflate  
+Authorization:b8r6-c6UyvNOmjqZffYXO6cQVmHE_Ae7Y0pkuiyH3A5HxnKuHjMTTlOJE2anIIOxbHBdqrNtbcFB0z4QaMg7q8KwQlJRmRLrvHaXuHsh6I_vNfEulYVfBNqTCxYMInQGH6XmQwpq1v_MIhwYA5_8E_v2I-Z4MX4ye0S6BrHftPfoSppZcXkQDZm71FVTgpZjfRwKy-c3IpGjfhr__EWl4EvwfeRhfND6vZKnpe9fbxmNWjOpquqtvEWFu3oC-7VXGH3sG1fItJuxcYskxuaRIe0t1_HGK5otWDPevokck_sNAwVr41-YtOH8KWcBOM_Zydcao8tCCRCMHL7zwDNBScOOfrTsfJIuDn2a-NeXL-pHgKcfA0404vS2cp7ZIPhCFqhETdJ5p0iArN0qw3nNGQeIOmosaK-fRqC299M7HkI0iC33zO3ZbY61FWgYcRcKq3J3mqq_D-ElDEpPrK4_Mg2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

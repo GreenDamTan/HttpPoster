@@ -1,0 +1,12 @@
+----------RequestURL----------
+RequestURL=http://localhost:5547/v4/async/result?requestId=fe94d9cd4306445b8aa3f0cb7d764ddf-20140731
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+x-accela-appsecret:2012122222212102
+Authorization:Ew3lC2JISYFcVdYzHtTZfyp-8e4mbS6hhoUxRDATfhOtOb58G2TqHpXmYhRbuTrD4NRXxdapHARLJgVljRKnXycqoNYJKvlQZUBIUSLy4bLdJLJ_uxmpJiM7gjjHGtiHMW6PXUX-sNIDlabtqYsBGkpfrmCfDB1yV1nUkXK1AfcN2guI56bJ-UigAb9VbHH_P1p2adqxmGJcYk_wi8tls3mH79lg96Y1aP8QYHIuhEzi28X03aXhR7VIvW7sy9iEKfhnGQOSICuG6TldeuhTIDtWAY2qyaNObt_mljta9Wl3gZQ6YlqQEjSBK3xjgfDQGy0z-OYpPXsv6wn--Gsmc_3kfHAgiQNLsq19DGdqq4zAHXNukVAcCEi5fFRdY3qnQZpF6z9XZZKAhK8VQbGxmEfRYQ1-tuBckf6PzMhsVgphWrEIpjxcsX_cKxkSeZn0kP8pa4e7JXViIqmbvPgUSitHh8-yfwsgTS_GPRbBtgfRvRnvR2iyVq17LAD_3cNf3NhwKFi8dUMIz7mOM_CRXTXN3BCeIezMS2TKuZBKKAr4sD01jE60iLJcYKi6zn3rag7ssxpJLm0D3BKQAb4WUAzX0cPk-5Pj_VsYbPsB6c7dvd-7xjDrqeVv3V232PuXEqdac5mR5Bxvw8j8DV5xTns_9m-O5D9gjaRTmUr_WYifg1PIK6hYsvnSxQQga3SW0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

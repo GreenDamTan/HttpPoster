@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://apps-apis.cloudapp.net/v4/users/me
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+x-accela-appid:635175027379969319
+Authorization:ylIrY9QyDdPa_IbJNW3pvtNno9IyRANDu-EPnlGbqijIJHRB1quTvX2GyezlI8K6o6K5VlzCxS3F8BBD_vDoYCsvtjbwB6I18rErTAwOKKWa2m6qHRG9NbG9RVb4Bku4AejBGhxAwJIEsg4k3xtU_WGcSsR5tVEJSBv3hqJ-eRvzB6hQXdZvmBoF-MkxldQSDnU3kdjPd4oYjCylWaeUvxXVIFiWSdetrR3nNonPEZy8yrpv7RReVgeJZub9ggiVAdogNhd_WPd2Wfoo3vWtpR7I3CXGlCsIzHOSPC21xEa2Vwp3wN_obx0L_xgIF5BN2USSSbYznwP0HWWmoprz0cYFUEyo22H7yDvf-mK7RCEtlmF2Ha0-Gj1D3UMlidhHopgJ5hRF_1onNjsCpRkayjHDQVzxvJ0_UWMj4n3oF_wGOUOG2LrTYuEVDeY8t_v_1JCy41nbfv625YefOv3X_HhvrLsWDU_d1uQEZ8RlPFQ1
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=grant_type=password&client_id=com.accela.inspector&client_secret=2012122222212102&username=admin&password=admin&scope=records inspections addresses documents assets settings get_my_profile&agency_name=Bptdevv4&environment=TEST
+----------RequestBody----------

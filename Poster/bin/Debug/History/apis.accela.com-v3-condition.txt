@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=http://localhost:5547/v3p/records/13CAP-00000-0070B/conditions?lang=en_US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+Authorization:-X_2EvKPZ_i_AX4K_lVi8q0o1L4XYSOAROBm6iOXh9Yz0e19AiQpxkK5Di0O41XgmxAamA8hZqJJLmdBzl0B1QD_GhcJM7rOR1XXDS2e4IrMmNcgB5WP6xTZ7Sle2Ft4hdO-dg6YWhajGSyRGb1ctj_VRCsY8Ny_t4r_k5chVy78hLZ0w96EJQ77j3anJmuk6lVMSbeo3fjwspLYqH8bMerITMiaWzhX2zXfW3GYBTLv_oay1lMstjubif1oIk--XbXXh-VB3Ay0ib6AL7fWitCDjY_Xx5GDn6M9ZN7pJ2o2-pf9dPOjkH0bT-qw_XNdwto19mclKlU6Sp1CPe4tn7yFAY7sBKG7THE7jp5W_hv5ZwZoDy6jry_JdeTdabCclsvfiMkDxuw3sTI3VuV_5Q2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

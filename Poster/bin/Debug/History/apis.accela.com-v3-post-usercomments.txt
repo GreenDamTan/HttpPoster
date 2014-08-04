@@ -1,0 +1,15 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v3/records/14CAP-00000-0000E/usercomments
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Accept: application/json
+Content-Type: application/json
+Authorization: rG6AFLF65MjxeM6v7fwZj53dTMF_6P5KX0ScQ6x7YsQSLxitPc6GuWMbXKMFHJIPgvNVGpteverP1AbrGVt8e0A0lrUYmeCzjt95izQkVdl12E3kkOF8ZNACY48V4lDsIVR-Ip2TkB2TR04kDnPtRtoMr8d9Q1NTHy3CAa2n9H-qnYF04I99nFJ-UsrbTcPDxqWNcFrR5tkBY3tzrbfttXFOG8esXalk-EisFQDP9Z3rjlYbKqmJBcaTDjHA9vrUTwrfUSx_kobSrdRFCnEKPTMLMCFBlFZwdqxxhtQy1xHjUasPbkeuK5qwabnEDRmD6vixS4_EkGdoEXWQcFX1vSAE7enRT60PvdnwmEfOBv9kMG-ZZwVrC6cCXa-OAKT0AYmbwiQjElwF2zYAnIyee9owHbbes-Pg8YrgmENTfqVHOZqDwQqYeaF8pa6sun5lKkfEOvBUrdtvHvE1q7Zlptd3cR2hTu3Af421wJqAIbGYSGL4ZjORi72oNy-cChToYNWSCBKv1341pFChgk0q4XSKOI05bnSyRmEINGP5VLHKoUF7d9yzPO1vdI9UUNs1YLWrBgFrED6ixSAskUcuxAnFnwDih9cjfF9XFHdEWKcYJtRGGSJTrCbumyjxB-_wkeadyaOhGEaVqXmX6HkU7g2 
+x-accela-appid: 635248251676123492  
+x-accela-appsecret: 3e23066ad65f47858b8a7d2c754181a6  
+x-accela-environment: TEST  
+x-accela-agency: Islandton
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

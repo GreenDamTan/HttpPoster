@@ -1,0 +1,14 @@
+----------RequestURL----------
+RequestURL=https://apps-user.dev.accela.com/apis/v3/aaauth/aausertoken
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+x-accela-subsystem-accesskey:dhHeALUHMuBK+kC5lQktCwJINpSpLGIbsm96LFJ5GVOJErOH/TIRVQO+jh/SaNlMZ/noLpf4Zdd1d3Ts/muWCQ==
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+"cloudUserId":"2641fe33-bcbc-495f-9667-9a2d6dbd8e74",
+"environment":"STAGE",
+"agencyName":"BEYONDSOFT-BPTDEV-AUTOTESTING"
+}
+----------RequestBody----------

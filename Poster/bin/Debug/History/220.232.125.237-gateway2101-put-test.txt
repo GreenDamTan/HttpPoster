@@ -1,0 +1,22 @@
+----------RequestURL----------
+RequestURL=http://220.232.135.237/Gateway2101/proxy.aspx
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appsecret: 2012122222212102
+Content-Type:application/json
+Accept:application/octet-stream
+x-accela-appid: com.accela.inspector
+
+AccessKey:C44F25A8EC8948E4A5C435AF30A0A0A4
+
+bizurl:http://10.50.69.26:53080/apis/v1/reports/833?module=Building&token=47257328395453300506
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+    "parameters": {
+        "RECORD_MODULE": "Licenses"
+    },
+    "entityId": "13LIC-00000-00030,13CAP-00000-000H4",
+    "entityType": "multi_record"
+}
+----------RequestBody----------

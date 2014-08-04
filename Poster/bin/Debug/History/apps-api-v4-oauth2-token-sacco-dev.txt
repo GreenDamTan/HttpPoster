@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=https://apps-apis.dev.accela.com/oauth2/token
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/x-www-form-urlencoded
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=password=admin&username=admin&scope=records settings get_record_customtables get_settings_record_statuses settings  reports parcels documents conditions inspections addresses contacts owners professionals payments run_generic_search get_inspection_checklist_items&agency_name=SACCO&environment=DEV&grant_type=password&client_id=634787061125751953&client_secret=f5a0b0c9b9824dd9ac95677494006913
+----------RequestBody----------

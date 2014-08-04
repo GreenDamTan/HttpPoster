@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://apis.dev.accela.com/oauth2/token
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/x-www-form-urlencoded
+x-accela-appid: com.accela.inspector
+x-accela-appsecret: 2012122222212102
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=grant_type=password&client_id=com.accela.inspector&client_secret=2012122222212102&username=admin&password=admin&scope=get_records get_record search_records create_record reverse_geocode get_ref_record_types get_record_contacts get_record_documents get_document get_thumbnail create_record_document get_record_comments a311citizen_search_record&agency_name=PETALUMA-IST&environment=PROD
+----------RequestBody----------

@@ -1,0 +1,16 @@
+----------RequestURL----------
+RequestURL=http://220.232.135.237/Gateway3101/proxy.aspx
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appsecret: 2012122222212102
+Content-Type:application/json
+Accept:application/octet-stream
+x-accela-appid: com.accela.inspector
+
+AccessKey:C44F25A8EC8948E4A5C435AF30A0A0A4
+
+bizurl:http://10.50.69.26:53080/apis/v1/records/BPTDEV-14CAP-00000-10021?token=54840900251340411206
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

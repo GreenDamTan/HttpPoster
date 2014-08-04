@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://accelaapidev-beta.cloudapp.net/v4/records/14CAP-00000-0000N/customTables/BLD_STANDARD%26PLANS+SUBMITTED?lang=EN_us
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid: 635146329510021179
+Authorization: DL8_4e5MEsi3k8nd_S2EnuQuDJyfN_k1vFnVCqmv3o8CJfI46BOAYoRY00rdbct_5r27pjx4brgJ2mFq1XHPHkA-Itk4sYE6Z441VeThTZ_y-xwHFA5GRikvalwEbbJ7_olKyBf-hTj8n067Gsvm_fyPgqmGsNcQSi4LVQEIr3cC6WJEAGAjEfTGPh8IX_XDWC_kp_76bzyQDro_-4zZbYM1rvgp1svkvJU6LQVFSJBNJ7REkkHOsVyG_3tab923_9RmEn3jLkHXsH8df_3Fq1Lr0ySIXMpLHBcpqXuCFC4H1kcl3jt1mazgM0QzP-X2LNUy5X1i4yoLxjtWN1HnHVbLnW6JZHpzVF4X7VFcseqdOWG_EqKuAuXwmVaVhl2fi4WTPwsFQq0-buYNLHEo_UXp3dGG6T7FKly50Zd5cWcwU8DJl6DLCqmKVZE51zToO4fsremd8UEfL9Q-6_elxQ2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

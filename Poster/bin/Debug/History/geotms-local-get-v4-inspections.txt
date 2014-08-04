@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=http://localhost:5547/v4/inspections
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+Authorization:4qaEptPmeohsT2gZohNaAgHv7CAJDFub6RvEcrpZxPJBWdPvpWWqjmCPorMZl7VL9-k9_WNq8YBfPFnXUqhTu-9qTP8zWli8FQqgsVbukQBm8y33XP7w4oTcr7CR-Sv3ryWUyHAL992Bz7mEROOuTFNZpt9LJZG0FQQIR1FcHFxp6XrLro7_BYSgQJrV7bHAnv6NpxXTVK7J_PKCvAbPNBU7kA10quUugf8QhLP-vUh6xTIIh8k9CC-KEk_8sunFdl49OYQIeURyw6tLfqeQ_TRGxR_b6jxc7P6h63vVdBktuKSBp5o1CaPHnGjCXuIYfzu3u2KTVJo-oweu54BZ18yUnIHmRFrC4SG1sDdHx6kGMayE0VCLzMiEEJZyPJLo47YwsZCppZUsrnu2_Ly62jycg7YkGN-7izxDn-15fSVgthUalBENhIH5RFwuAFuCriroByG74K_i-pSCNPrZy3RFrE7AbFqWKnKYvfenibN_V6II2QwDEaHXNMZIeOnI7pHi5opf1OR9G0kutESHfG1atGp5_jdRoeYab3BOfmCIYk09qhHJZr1o4llqlkHoIDrpUP_iIC7-JuaYF6qUMUNDTgfcO9LL4sKyobq1qUpb88QI-cWrLgfVPWVSzASM5xs6v3nUVd98CVkaelkEb8jjQkBD5_NUqQ5I-XKlZRS_vnvWYRFnH9vWawQTxo4P0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

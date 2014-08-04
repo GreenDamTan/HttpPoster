@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://157.56.161.65/oauth2/token?lang=en_US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid: com.accela.inspector
+Content-Type: application/x-www-form-urlencoded
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=deviceType=iPad&grant_type=password&password=admin&client_secret=839ffae0ee244cb4b558f252ca84524c&scope=records contacts settings&agency_name=Achievo-SACCO&client_id=com.accela.inspector&environment=STAGE&username=admin
+----------RequestBody----------

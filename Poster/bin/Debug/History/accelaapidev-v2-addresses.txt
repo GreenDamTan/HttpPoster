@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://accelaapidev.cloudapp.net/v3/addresses
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+Authorization:KsRTFw64JIluhYqEUUQap-CCHZ7cL9AiQnzPq9i3pu-aAvJ07Z7RzAib9EJWMKl0X3qbSG8lEbLaTkEdfE-lzBUtP7p5b3kgW-UsjYDhR3a8iKHH-NqgwfrvMFLhZDJLCxFT75DMb1UYEm5gZ4urDCAkMDkAKrQdo9TKzMR3oeXy6MHDVznGo-hz4sk96IOontDq-azR8_gTB09-Ollwbg8nPOpnICPoSF2in-zOZaGA4Odg6ckE116ywa6xWzlfsXIWqhxQHB3Nt_GJ9ZmwCFRWj87bx9yQSzd5dPFZUsRm7aZw__WXkycD3J-vi43k51owg0onVCe6DfadTyejuc2B8pcNSRAjOGY0DCz1CLRnqxPc7MkeZoTnmSX_dqEMkSQQN6NxJjHW1VKhkb0Mpg2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

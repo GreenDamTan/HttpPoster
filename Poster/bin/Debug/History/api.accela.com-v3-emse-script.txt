@@ -1,0 +1,13 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v3/scripts/scripname1234
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: 635150949800276726
+Authorization:gIXW_sjVoEvkLg_k0oBPX-boVx8jwl7zEVahuKTbZv1RkWJLb-0iSmutwhAK3pdVXxfjcAyue7X6LAD0KjwJrPFoc89vTCvbgD_xtIIzCg3VNim5N_NkYYlrGAA9mEMISALH0eKLNWaqlD6l9eyBCPHKEnmXJSJaeRpF2zeswgPwYVy--ypL19gMX8hN32ffj8d_bqUo--X3LkuN988Dt1CxvvxjqG9sye4pHH6dkzS2XJds5jfHHS29nhZXovnRvYKDGfQe6tp9lDs1xX6BMSO6_7yLCeYQk5cojnCsWYZlMEx8CtEKRa30Ml0WWk3JPUlOC6MKX4wwf91JpXdNAbGxfdmqKhGGkPwfp8Sfezv6tlHCVpeso7inYMZBlUABzz_HZwgZck7RGWg5QEVWzGGXpONqqwSIMAxSivWvmjQ1zrUChiZQtxBD-CnuND1H0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+"customId":"11TMP-000027"
+}
+----------RequestBody----------

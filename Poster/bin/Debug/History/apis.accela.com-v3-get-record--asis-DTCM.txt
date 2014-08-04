@@ -1,0 +1,12 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v3/records/asis
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Accept: application/json
+x-accela-appid: 635288272510366347 
+Content-Type: application/json
+Authorization: BGP4AkgaR1dd1V_RJVd-RTyOkPKVrNdUhQjOY0KwqtgZPNiuTmR0sUYHQGzZSJz4xWGWdlmA36qEw0Qc3L59FJKpPYwMy8kuxyDMtaTxA_kAvmiyvgCo9XXL8XwDGN7jpXWkUsyyWCosMLZhIkWK5kSo7ND3kx0J1USrEDhnH1A6N-ns0StoNeOENMlY0AmaZ6ybUDCClO9lNxrhwau3IXUAXwaSCgZqCtt9LtJcdUqET7azf3FovSqfJ80rdxDlqOYleG2wLT-KyPIQiBGligvVJOlmvo-wGgaRjPqaISh1bVTAOkpGffC-0mSgehHMf13BzuS63khPgV0PMcaDbrsOH0rUoJeadSoVJY9ocwCQTCy-VSu_UhDoOmR_I6SxY84fxqojqt5oqAg-ejflbezuWB3EabqD2tcqlx7ZKpwXsPXvmQTsIqJhiSMmPqdhJwgMVckkIhoLG_zobI55zQotLIVl5S5xrudtKaFGNSzkJkBK-EVmqEr6pEEjnIzm8TBleUQ8efAOq6BFv1ivLQA_hex7doeyadI5Wv5lY5NvnPthN4_p42HrnUUtcAMZqQZlBn3PUMWR-utDCDeHBavJIdW8dv1oLSSm8prmLHBgPzkDoG5RFvbbat1CrWpNLL2Mot9gLBqw1hl69ImysWyTAWZkSMIIWsjWQRbhQEOBqLXGYRa33KuQBgNfYwFnELsUhjk-2_ubtqP_aSwQR9M6ydXNXFzTSlBSgN49XD7NwPp2js_4aONEXwupY4t4I3i_7ryhj-7vpyRFoIxLJiefcQl3tw9NcORFZwR9TVnyWZROtAjgepyBmB_zDseE-TdOc9WP9VzZ-gur8keHl23mVSpYP-K38U5z2bUW_22j4fU-nybyc5DyS4aI8rSPbKlEZaXU4Ol9d1_C_yIR5GM7HFbr0F2bD5PQJPM_Fe6lrp45s79NsnYC6VrR4dWF0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

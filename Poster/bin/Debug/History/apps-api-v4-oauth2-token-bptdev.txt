@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=https://apps-apis.dev.accela.com/oauth2/token
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/x-www-form-urlencoded
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=password=admin&username=admin&scope=addresses batch_request civicid conditions contacts documents get_app_data get_app_settings get_civicid_profile get_gis_settings get_inspection_checklist_item_statuses get_owners get_parcel_owners get_record_condition_summary get_record_contact_summary get_record_fee_summary get_record_inspection_summary get_record_location get_record_workflow_summary get_records_location get_ref_contact_types get_ref_inspection_groups get_ref_record_types get_thumbnail gisserviceapp_get_service inspections owners parcels professionals records reports reverse_geocode search_contacts settings update_app_data&agency_name=Beyondsoft-sacramento-MAT&environment=PROD&grant_type=password&client_id=com.accela.inspector&client_secret=839ffae0ee244cb4b558f252ca84524c
+----------RequestBody----------

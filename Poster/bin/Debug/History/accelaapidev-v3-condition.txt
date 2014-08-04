@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://apis.dev.accela.com/v3p/records/13CAP-00000-00705/conditions?lang=en_HK
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+Authorization:cvAYFjtM21GyXI0UmcFWeEzyMbU7X6itoh8HAQugqjkY7avHzoeGTjwhV69NBwGwaxMDbNTr5j1KWw-CBX_G0mjF2Hwi5TeSyL9Df57_uOLFnR0Mr08mV2M5U9G0xvQv8RrMlD3ck72z0Wl2bunU_YLBCGxdR8hVjqQFCvqSWoUkGqRWdILt7HuUfJNNcqXw2Jidqk_fCPDE3hUzqcCjrFyJFPhrHUKwmLAnXoWkofb_PqAY0glRHDshKB4mUaKMZFP6BuVs2kSAtLmPCW7DaR8P_pNHUTbsQNEyfZKKOTHfdZEd22uHJTmWurTVIBoNjPfv4gZc-9loH1Na_zJNiStvFmUkVccl2foXXTsECZL6Mx7LjejTrNM5ZcFppYYtjRkSrrJoCfYyZ-VfpGGUmS4IkaE9_pkq1mDOmbujPnPIYI-Xyzxb2A75I9cNgB3M_WKPdw0btoZnkBy4jljmjw2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=grant_type=password&client_id=com.accela.inspector&client_secret=2012122222212102&username=admin&password=admin&scope=records inspections addresses documents assets&agency_name=Achievo-Baltco&environment=CONFIG
+----------RequestBody----------

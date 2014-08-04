@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://accelaapidev.cloudapp.net/oauth2/token
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/x-www-form-urlencoded
+x-accela-appid: com.accela.inspector
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=grant_type=password&client_id=com.accela.inspector&client_secret=839ffae0ee244cb4b558f252ca84524c&username=admin&password=admin&scope=records inspections addresses documents assets settings get_document_thumbnail&agency_name=BEYONDSOFT-BPTDEV-AUTOTESTING&environment=STAGE
+----------RequestBody----------

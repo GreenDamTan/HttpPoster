@@ -1,0 +1,16 @@
+----------RequestURL----------
+RequestURL=http://localhost:5547//v3/search/generic/Analytics_Daily_OpenRecord2
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+x-accela-appid:635175027379969319
+Authorization:p1r5i4uFQnURdloE2D9OXB6JiU5mfMrd5L_KEjm-jdUHXw3WAYjtG2g9MXkVzUTsvsfDJ72oB9vFoDN0FZd2IJysCxBo0CAEFhq4GYk8DBHbUUp7QtxnLaDv2gdbhuQ0srGqmv0T3tEywOepgKvPw-8ySGsTahZukENIL_2ghubVbFaeOs0hO3ocN_9qYPAVLQdH-edah7zQWEpyHr7nWCBZ-B_wPnFG2OqbiFsnJ5rw3l96aZhymtcpZh3TSioD36K7ZUIKlbS8QamnL0PN1MxcfHP1bnJ4Xsup9ecYiOK1pl_g4P8kHSB1ZIYbqullFc2mcjD0AEwD1hMVlWHt9Ylpu9bZVHQ91uskbh5isdD9ASpahQ3hBiAUKydvyIgbqAUC08mLjtAYnbRrYYTbMcQY3fWly9oqIU3Dc9W1GXHe2ko6zx7WoAPopvaeEPpa5qFnKW80OTcJx7HLvHWsRrL0y4-kU-0QibzIYWGTsL1zcAbMTM-rpHPangW2re2KnQCRQfaSZYJxQFywMzmYzIj2lQCOY_EJ3JjfNHTy_buAK6UcGK69FqjyvPzI-4N5DfqEe_3LYyUoqiHz7Wue4OVyoh_M05Pt6HneudmTIi4jOiT2lN5zS6oJhSZwN1_5Z8Cj0y8oH9H9i_TPCRV6TxXCq-P9SZxJPLRmS7m35-wJMO66SV1LXjNwIXfkb9UBeT4KBkAWeTkEi_s6UNN1vg2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+  "AGENCY":"187834",
+"MODULE":"Building",
+"OPENDATE_START":"2014-05-01",
+"OPENDATE_END":"2014-05-11"
+}
+----------RequestBody----------

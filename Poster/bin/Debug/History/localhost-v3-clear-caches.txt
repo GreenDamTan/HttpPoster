@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=http://localhost:5547/apis/v3/caches/clear?cachekey=global_caches_agencies
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-subsystem-accesskey:dhHeALUHMuBK+kC5lQktCwJINpSpLGIbsm96LFJ5GVOJErOH/TIRVQO+jh/SaNlMZ/noLpf4Zdd1d3Ts/muWCQ==
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

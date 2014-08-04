@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://apis.dev.accela.com/v4/search/records
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+Authorization:X9hqlr-PW5iUi0c5Ri2K1aJKmFT2_VvkHVQEKUKDVgzORe3vu3jEeY5DbSgHCvT7Gk-qMZUMqVdzuSJ3ob1sFFHtwvNA5x-R8WLPWir5uCTk1Ls0EfPpscU3n8V4k3N_-riRh7vmjwqMctSupyf8I5yBe3G5qzNumd_UakWAlAFq4g9gk29DP9sEoGc-X3CTzBGeSYwAR_bEGOOdXjGZKfx-jRnPsKDi4pYqIPGYcNUSLtvcWYBuy-ufaPI43lkzliJpxSAeCF5TODTys6xuDfPwKR5kTGM8WuaoOyBoAQXlI2v2NasRDxYBqHuUxj0XazpaI3YKfM1Jy37ZC79oAKYeBchuZTN5erZF2_bNWNrVTWmYvT-VW_hubB7Twv0HOoNcVSE-E9uN5cCg-gOCA3DrA361e7tQM0rgTNC9Zi-Q-Aiplgih8lKAiS4mIX4rglCymWorDUVg52hRwQwiAXwfSkBDOhNsn9qAQ6uB7Cg3DSymLreQnZbc4o_D5OBbZAk-f-dDA4nT5lbjYv2v9-q61WAQC0rEueDw0hsZgzdRggoOy4GXfehID8cIb5wrBc5CNdF3cDSEvc-uMTw1iMXolK7J489TbpmNhD9vmHbwn6Z9owVdWvt-YnyLj8v830eusnWTnIAAH3I3dCEZmzQKnHUMXpdsRW2kXyC5Ako1
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={}
+----------RequestBody----------

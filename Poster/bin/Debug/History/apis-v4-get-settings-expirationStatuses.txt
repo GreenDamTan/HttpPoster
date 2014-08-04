@@ -1,0 +1,13 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v4/settings/records/expirationStatuses
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appid:com.accela.inspector
+content-type:application/json
+Accept: application/json
+Accept-Encoding: gzip, deflate  
+Authorization:z43g5QyHFS7OzPfD8SnELVc183HRVGmQAT7oyaZFpfgWQv8X3HXpqXLHcm44QyjRAhlvSiFkq4dvTnzQtXYKXbhSlIaeoQtGRh8DHKbuUt6RlH55csckDPGtbK3dEnE6ydSESofq6ix89WAwZymMynemEApMNvdO18pnfi_QX6qvLBZhKny6Z3YeVBnmuZSZ1w7Yr9sp0kVSHK_p71FwnoR6XGQf1jG7L11gkXH_GhO0n3eN6t1neAR5ZQAMkc1H4MHfGHErlIO_gEx08Yd2SwI8jrVcqH_Kyn13wR-amo21tPH6z_Kz0LDS_FnTtKEYgy7mNuoOhohNiS5sFjjwo91eX5tj1EPJ_PmTB0-6tJbFIagrILNTymLj3vhLuFApSDtXdyQkBJiqIXK3MX3rRsKdAD4po5wgnH5wCzHdtbZP_Cvo5HyuJHkIuUVzDVIFc24rqzctR_say0r9E_f4rXgeb20V0cOQp5rzOVxgwRTiz0invqig9gG35B8c17qGDq0ouRS5b6YfiDxS2MfM0BJm8aLvftsWGZwVUCj_oSoRhaSBRJNmiBdOSvdmE0zF0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

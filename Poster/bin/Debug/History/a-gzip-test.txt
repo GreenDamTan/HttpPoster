@@ -1,0 +1,14 @@
+----------RequestURL----------
+RequestURL=http://localhost:4686/apis/values
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+appid : com.accela.inspector
+//Content-Type: application/x-www-form-urlencoded
+//BizURL : 
+//AccessKey :
+Accept-Encoding:gzip
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

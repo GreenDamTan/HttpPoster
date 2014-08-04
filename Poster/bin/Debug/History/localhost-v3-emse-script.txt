@@ -1,0 +1,15 @@
+----------RequestURL----------
+RequestURL=http://localhost:7382/v1/scripts/restfultest
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+x-accela-appsecret:2012122222212102
+x-accela-appplatform: ipad|3.2
+Authorization:pUhBEGtRy9gKfeNCtstceU0NWm2G36K_PfNobuJDHdfTpxRo0vH61uMw_b_ElQUzhGx0yrnpBN1xe6PCOB1U0qPFY8xERzEVv4LLo31kAK-6U_O_RyOjk3jefFZ5gzVhyuLBAx7wkfElmc9sFO00HKe0wXhzddVQ2YL5GWgYPCQgOZ02Tbgs5IHjcsJFjz8gdKBH0efQGJDnitSBYfGBfwVxY1zl_zQbT2JxMdGREza_VeD4OFuvy97DZJgP865yZP5ZcMsHTJ0C3uO_mTvcVb10W22L_8PT8bYH-FpmWIinv7m_BFaIr_BtgUhS0nHItqhFenzhntjFYefTFCdh_nMLECJSYz5Yi7eYQZxeFmKNhnsqoFK2qnsLsKsONfb9WpS_vXkimxFElEeIcUi8ZUeO_L32cpXSIc9mYtyDGRqY5OO2HluiNwsnyXjJiMVvKamxY6Zq2Ha2YhOHUOucWLBH2x0wURH3p27eEAz1HWtIHi2iRrpMJEN4kZwfJqdDabDb70r4ug5f6cXoFR_B4L3wl60QWTo9xg95dkJchAKC0w4_94Qf383wCDau6RRYu08Ugc1oypHNgSDOy-VgcY1x_jRGbr8c65QJVPxk-HlVKEt9D-SD75XiD7H1OZxF0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={
+"customId":"11TMP-000027"
+}
+----------RequestBody----------

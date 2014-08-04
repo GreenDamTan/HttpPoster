@@ -1,0 +1,16 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v3/a311civicapp/records
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: multipart/form-data; boundary=-------------------------acebdf13572468
+x-accela-appid: 634801614095281254
+x-accela-environment: PROD
+Authorization:
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=---------------------------acebdf13572468
+Content-Disposition: form-data; name="json-data"
+
+{"record": {"type": {"id": "ServiceRequest-Streets and Sidewalks-Pothole-NA"}, "description": "POTHOLE near Bollinger Canyon Rd, San Ramon, California, 94583, United States", "address": {"postalCode": "94583", "addressFormat": "Bollinger Canyon Rd, San Ramon, California, 94583, United States", "streetSuffix": "Rd", "xCoordinate": "-121.957188117", "yCoordinate": "37.7627019620004", "city": "San Ramon", "state": "California", "streetDirection": "", "streetName": "Bollinger Canyon"} } } 
+---------------------------acebdf13572468--
+----------RequestBody----------

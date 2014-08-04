@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v3/system/record/types
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Accept: application/json
+Content-Type: application/json
+Authorization: QI6dWzeDVlOxDZtRkj6iCn4ke2nttaFYhFSXvD3v6F4TumIWen2j3AqoWgZH3yWN21viBT7DAD-KHgj9qzzjofXBssaWip_-5TWsvqyRjIrl1pHN72NLO_QmUm7dGHNCO1_1oz4z6M1rFsEnLFI7uNjJjGMMp7gOn-L1uR1zAPGOhW2M8ydi5QnSP3pWpNpB1q1_d_g4GruVyYX0bVwS3UUW57oe7S7Uh3bJh4VN1tMKMhh3k3Txv1ZtZvyiS_pAJ9GQIQon1zwl0QYkGVshVd2eoribtMMfELRBxjJToNr8jGIT0HyCe9unPVgMk_iHfJNdsBYOBi8aFR-jd4LHNfPEZX_85rZuhhIByq-V1gF0m-PI_SIyWrVDC6DXhc83r6ixIq6EpSXJwlsOKD86yg2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://geotms-apis.cloudapp.net/v3/users/me
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+Authorization:wqfGFUtXEAX2RZiz_xpTrbrrEvlGjmbiVGbuBQf25Kda8IdZ-dL2h06jIeDWeYqoCLIKgCeTZRG3refPZx1CPY3De-xr0rrk9TY_xbKTypHVGKvFVpObsKSCAZKbom7q1BUTz5bXT9oNqwYqgZsuSM8b4SiND4aj8-KnzJiM_HqoqG7J1VuoZxNRWa58eQhOtt_SDKsRIE5FiQFNdt6alveVJNfPc6lI11i9GTKFyS9i9BTT7nwxx6HvCXSmjXSm1LP-AuVncRO6RlcskjeyZti3cHPkzsMhlLWh6Vk9-KabDJRbsUha1ENS4lMB9J4m2W5bQ2d2AJ5kLFsk6Tb3qq5J2nVxfm2C_dfAVNg32IYQMJqIF4uDm1-aRjOOqAovfpa4qGxbZS2Drg76o5mC0TFPC--svxwCZGrXF9oTkqpO3N1pJiZ7waPNxZYyMcKeBLUzhUqdWCdCG011-T-XIGW11dXg4YbE1ASBy7mUHXVqJHAkPV2EBba6bsQsr8oHEfKPRa8S2BgCWRvscG-e34A_x4jJswkSGRQDMWznOnS31P00Pb4Yy-8x52YSQA--MFRcZb7EQt3MoDkRIkB17wyaJ_UGkPHjGy2BHPrRFxAXENwemyktjlw6DlDJCvpNilLoS5gWIwD1gNOmNtBf31zk0ROepK3WmZ5BTfT5SlbEG_XT7qGDDrZ6slKIy6Lv0
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

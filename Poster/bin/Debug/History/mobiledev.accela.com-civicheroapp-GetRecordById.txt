@@ -1,0 +1,10 @@
+----------RequestURL----------
+RequestURL=https://mobiledev.accela.com/apis/v1/civicheroapp/records/BIGBUCKET__PROD__DUB12-00000-0000L/?token=3abd2aa29186d17fdad6c68d9fcc677e
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+Authorization:3abd2aa29186d17fdad6c68d9fcc677e
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

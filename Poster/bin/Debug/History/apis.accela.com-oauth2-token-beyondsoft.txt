@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=https://157.56.161.65/oauth2/token?lang=en_US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/x-www-form-urlencoded
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=password=admin&username=admin&scope=records settings get_record_customtables get_settings_record_statuses settings  agencies parcels documents conditions inspections addresses contacts owners professionals payments &agency_name=BEYONDSOFT-BPTDEV-AUTOTESTING&environment=SUPP&grant_type=password&client_id=635318324349964920&client_secret=c322aedf72fc464992b3e8ed06def06f
+----------RequestBody----------

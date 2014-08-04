@@ -1,0 +1,15 @@
+----------RequestURL----------
+RequestURL=https://mobileserver/gatewayv3/proxy
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=x-accela-appsecret: 2012122222212102
+Content-Type:application/json
+x-accela-appid: com.accela.inspector
+
+AccessKey:C44F25A8EC8948E4A5C435AF30A0A0A4
+
+bizurl:http://10.50.130.25:44080/apis/reports/describe?token=41220520893594212613
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

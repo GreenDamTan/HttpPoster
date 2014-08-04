@@ -1,0 +1,13 @@
+----------RequestURL----------
+RequestURL=https://apsonlinetest.saccounty.net/mobilegateway/proxy.aspx
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=AccessKey:86592060557B4E2F8CDA71B6250BTEST
+BizUrl:http://192.168.52.128:3080/rest/auth/public
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody={ "agency" : "DiagnosticsTest",
+"userId" : "diagnosticstest",
+ "password" : ""
+}
+----------RequestBody----------

@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://apps-apis.dev.accela.com/v4/records/BPTDEV-14CAP-00000-0005I
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+x-accela-appid:635175027379969319
+Authorization:quJWYc8woiMLqq26jC-BgkVmIlcUy_L0i_sLz7azhCDvxkSHAV_e_Gnb5Jlq9dnOFsbo0Bm2OZM8PSTm1RzHrm1K_wFdODJQoUgEH0NRbLSy1LLHHslrt0bWtsao9ra-CtR2EaJTLEdphJQRU3CAcXLjzfNYVSKr3aW1l_47iEovqQxI6DK7Sz5TBNmiDUKV0lLn2BVulM4oSpiTvrGxlnf1hgTAY0sZkkRp_Mn9f6Lng61Jsg2OQTXCsR7yl3SJ5EQjlYYX2BwU9HI3xy525ZnTcgUo4PYLBkfAuqlt6tJg_fyukGcOUVNjGfy_hXHbPO9J1bFDCZWm_i-s055NVNnGf5GobY_ClhYDYREYLw8kKaCGpFZRDla25rGKC_02xF10Hy5yHqc7J-93KwDt2y70hTLNTghQUPpwUkUaepeR5h4RuB7XzSKlT5EC7KxaQTTAZTJZqBAQDMhWVb2fkg2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------
