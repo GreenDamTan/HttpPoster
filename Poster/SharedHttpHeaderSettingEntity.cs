@@ -54,5 +54,11 @@ namespace Achievo.Poster
             get;
             set;
         }
+
+        public string AccessKey
+        {
+            get;
+            set;
+        }
     }
 }

@@ -66,12 +66,12 @@ namespace Achievo.Poster
 
             if (settingObj == null) return;
 
-            //{content-Type}|||{appId}|||{appSecret}|||{GettingTokenRequestUrl}|||{GetttingTokenRequestBody}|||{AccessToken}|||{agency}|||{environment}
-            string pattern = "{0}|||{1}|||{2}|||{3}|||{4}|||{5}|||{6}|||{7}";
+            //{content-Type}|||{appId}|||{appSecret}|||{GettingTokenRequestUrl}|||{GetttingTokenRequestBody}|||{AccessToken}|||{agency}|||{environment}|||{accesskey}
+            string pattern = "{0}|||{1}|||{2}|||{3}|||{4}|||{5}|||{6}|||{7}|||{8}";
             string content = String.Format(pattern, settingObj.ContentType, 
                 settingObj.AppId, settingObj.AppSecret, 
                 settingObj.GetTokenRequestUrl, settingObj.GetTokenRequestBody, settingObj.AccessToken,
-                settingObj.Agency,settingObj.Environment);
+                settingObj.Agency,settingObj.Environment,settingObj.AccessKey);
             Stream stream = File.Open(HTTP_BASIC_SETTING_DIRECTORY + "\\httpHeadingSetting.txt", FileMode.Create);
             StreamWriter sw = new StreamWriter(stream);
 
@@ -115,23 +115,38 @@ namespace Achievo.Poster
                 content = content.Replace("\r\n", "");
 
                 var segments = content.Split(new string[]{"|||"},StringSplitOptions.RemoveEmptyEntries);
-                if(segments.Length != 8)
-                {
-                    return null;
-                }
+                //if(segments.Length != 9)
+                //{
+                //    return null;
+                //}
                 //{content-Type}|||{appId}|||{appSecret}|||{GettingTokenRequestUrl}|||{GetttingTokenRequestBody}|||{AccessToken}|||{agency}|||{environment}
-                //string pattern = "{0}|||{1}|||{2}|||{3}|||{4}|||{5}|||{6}|||{7}";
-                SharedHttpHeaderSettingEntity settingEntity = new SharedHttpHeaderSettingEntity { 
-                ContentType = segments[0],
-                AppId = segments[1],
-                AppSecret = segments[2],
-                GetTokenRequestUrl = segments[3],
-                GetTokenRequestBody = segments[4],
-                AccessToken = segments[5],
-                Agency = segments[6],
-                Environment= segments[7]
-                };
+                //string pattern = "{0}|||{1}|||{2}|||{3}|||{4}|||{5}|||{6}|||{7}|||{8}";
+                SharedHttpHeaderSettingEntity settingEntity = new SharedHttpHeaderSettingEntity();
+                settingEntity.ContentType = segments[0];
 
+                if(segments.Length > 1)
+                settingEntity.AppId = segments[1];
+
+                if (segments.Length > 2)
+                settingEntity.AppSecret = segments[2];
+
+                if (segments.Length > 3)
+                settingEntity.GetTokenRequestUrl = segments[3];
+
+                if (segments.Length > 4)
+                settingEntity.GetTokenRequestBody = segments[4];
+
+                if (segments.Length > 5)
+                settingEntity.AccessToken = segments[5];
+
+                if (segments.Length > 6)
+                settingEntity.Agency = segments[6];
+
+                if (segments.Length > 7)
+                settingEntity.Environment = segments[7];
+
+                if (segments.Length > 8)
+                settingEntity.AccessKey = segments[8];
                 return settingEntity;
             }
             catch (Exception ex)

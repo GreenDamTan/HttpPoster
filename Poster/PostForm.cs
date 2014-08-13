@@ -33,7 +33,7 @@ namespace Achievo.Poster
         private const string LINE_SEPARATE = "\n\r=======================[{0}], Costs:{1} ms, Length:{2}, traceId:{3} =====================\n\r";
 
         private static SharedHttpHeaderSettingEntity SHARED_HTTP_HEADER_SETTING = null;
-
+        private DateTime LastExecuteTime = DateTime.Now;
         public PostForm()
         {
             InitializeComponent();
@@ -131,6 +131,8 @@ appid : com.accela.inspector
         {
             try
             {
+                RegenerateTokenWhenMoreThan24Hours();
+
                 this.txtResponseHeader.Clear();
                 this.txtResponse.Text = "Processing...";
                 elapsedTime = 0;
@@ -695,6 +697,62 @@ RequestBody={2}
             string token = tokenObj.Substring(indexStartPos + 3, indexEndPos - indexStartPos - 3);
 
             return token;
+        }
+
+        private void txtRequestBodyForGettingToken_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control & e.KeyCode == Keys.A)
+                txtRequestBodyForGettingToken.SelectAll();
+        }
+
+        private void txtResponseToken_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control & e.KeyCode == Keys.A)
+                txtResponseToken.SelectAll();
+        }
+
+        private void txtEnvironment_TextChanged(object sender, EventArgs e)
+        {
+            ChangeRequestBodyByKey("environment", txtEnvironment.Text.Trim());
+        }
+
+        private void txtAgency_TextChanged(object sender, EventArgs e)
+        {
+            ChangeRequestBodyByKey("agency_name", txtAgency.Text.Trim());
+        }
+
+        private void txtAppSecret_TextChanged(object sender, EventArgs e)
+        {
+            ChangeRequestBodyByKey("client_secret", txtAppSecret.Text.Trim());
+        }
+
+        private void txtAppID_TextChanged(object sender, EventArgs e)
+        {
+            ChangeRequestBodyByKey("client_id", txtAppID.Text.Trim());
+        }
+
+        private void ChangeRequestBodyByKey(string key,string value)
+        {
+            string requestBody = this.txtRequestBodyForGettingToken.Text.Trim();
+            var kvs = requestBody.Split('&');
+
+            foreach(var s in kvs)
+            {
+                if(s.IndexOf(key) > -1)
+                {
+                    this.txtRequestBodyForGettingToken.Text = requestBody.Replace(s, String.Format("{0}={1}", key, value));
+                    break;
+                }
+            }
+        }
+
+        private void RegenerateTokenWhenMoreThan24Hours()
+        {
+            if ((DateTime.Now - this.LastExecuteTime).Hours > 23)
+            {
+                this.LastExecuteTime = DateTime.Now;
+                btnGenerateToken_Click(null, null);
+            }
         }
     }
 }

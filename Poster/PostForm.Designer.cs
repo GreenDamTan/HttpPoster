@@ -62,6 +62,10 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabHttpExecution = new System.Windows.Forms.TabPage();
             this.tabHeaderSetting = new System.Windows.Forms.TabPage();
+            this.txtEnvironment = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txtAgency = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.btnGenerateToken = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.txtResponseToken = new System.Windows.Forms.TextBox();
@@ -77,10 +81,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtAgency = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.txtEnvironment = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.txtAccessKey = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -343,7 +345,7 @@
             // 
             this.txtResponse.Location = new System.Drawing.Point(3, 19);
             this.txtResponse.Name = "txtResponse";
-            this.txtResponse.Size = new System.Drawing.Size(650, 317);
+            this.txtResponse.Size = new System.Drawing.Size(662, 288);
             this.txtResponse.TabIndex = 2;
             this.txtResponse.Text = "";
             // 
@@ -426,6 +428,8 @@
             // 
             // tabHeaderSetting
             // 
+            this.tabHeaderSetting.Controls.Add(this.txtAccessKey);
+            this.tabHeaderSetting.Controls.Add(this.label15);
             this.tabHeaderSetting.Controls.Add(this.txtEnvironment);
             this.tabHeaderSetting.Controls.Add(this.label14);
             this.tabHeaderSetting.Controls.Add(this.txtAgency);
@@ -453,6 +457,42 @@
             this.tabHeaderSetting.Text = "Shared Http Header Setting";
             this.tabHeaderSetting.UseVisualStyleBackColor = true;
             // 
+            // txtEnvironment
+            // 
+            this.txtEnvironment.Location = new System.Drawing.Point(138, 138);
+            this.txtEnvironment.Name = "txtEnvironment";
+            this.txtEnvironment.Size = new System.Drawing.Size(537, 20);
+            this.txtEnvironment.TabIndex = 19;
+            this.txtEnvironment.Text = "DEV";
+            this.txtEnvironment.TextChanged += new System.EventHandler(this.txtEnvironment_TextChanged);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(20, 143);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(111, 13);
+            this.label14.TabIndex = 18;
+            this.label14.Text = "x-accela-environment:";
+            // 
+            // txtAgency
+            // 
+            this.txtAgency.Location = new System.Drawing.Point(138, 105);
+            this.txtAgency.Name = "txtAgency";
+            this.txtAgency.Size = new System.Drawing.Size(537, 20);
+            this.txtAgency.TabIndex = 17;
+            this.txtAgency.Text = "SACCO";
+            this.txtAgency.TextChanged += new System.EventHandler(this.txtAgency_TextChanged);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(20, 110);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(88, 13);
+            this.label13.TabIndex = 16;
+            this.label13.Text = "x-accela-agency:";
+            // 
             // btnGenerateToken
             // 
             this.btnGenerateToken.Location = new System.Drawing.Point(138, 437);
@@ -479,11 +519,12 @@
             this.txtResponseToken.Name = "txtResponseToken";
             this.txtResponseToken.Size = new System.Drawing.Size(537, 253);
             this.txtResponseToken.TabIndex = 13;
+            this.txtResponseToken.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtResponseToken_KeyDown);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(23, 258);
+            this.label11.Location = new System.Drawing.Point(20, 291);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(77, 13);
             this.label11.TabIndex = 12;
@@ -491,7 +532,7 @@
             // 
             // txtRequestUrlForGettingToken
             // 
-            this.txtRequestUrlForGettingToken.Location = new System.Drawing.Point(138, 205);
+            this.txtRequestUrlForGettingToken.Location = new System.Drawing.Point(138, 242);
             this.txtRequestUrlForGettingToken.Name = "txtRequestUrlForGettingToken";
             this.txtRequestUrlForGettingToken.Size = new System.Drawing.Size(537, 20);
             this.txtRequestUrlForGettingToken.TabIndex = 11;
@@ -500,7 +541,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(25, 208);
+            this.label10.Location = new System.Drawing.Point(25, 245);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(66, 13);
             this.label10.TabIndex = 10;
@@ -509,7 +550,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(20, 182);
+            this.label9.Location = new System.Drawing.Point(20, 219);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(216, 13);
             this.label9.TabIndex = 9;
@@ -517,12 +558,13 @@
             // 
             // txtRequestBodyForGettingToken
             // 
-            this.txtRequestBodyForGettingToken.Location = new System.Drawing.Point(138, 255);
+            this.txtRequestBodyForGettingToken.Location = new System.Drawing.Point(138, 291);
             this.txtRequestBodyForGettingToken.Multiline = true;
             this.txtRequestBodyForGettingToken.Name = "txtRequestBodyForGettingToken";
-            this.txtRequestBodyForGettingToken.Size = new System.Drawing.Size(537, 175);
+            this.txtRequestBodyForGettingToken.Size = new System.Drawing.Size(537, 139);
             this.txtRequestBodyForGettingToken.TabIndex = 8;
             this.txtRequestBodyForGettingToken.Text = resources.GetString("txtRequestBodyForGettingToken.Text");
+            this.txtRequestBodyForGettingToken.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtRequestBodyForGettingToken_KeyDown);
             // 
             // txtAppSecret
             // 
@@ -531,6 +573,7 @@
             this.txtAppSecret.Size = new System.Drawing.Size(537, 20);
             this.txtAppSecret.TabIndex = 7;
             this.txtAppSecret.Text = "f5a0b0c9b9824dd9ac95677494006913";
+            this.txtAppSecret.TextChanged += new System.EventHandler(this.txtAppSecret_TextChanged);
             // 
             // txtAppID
             // 
@@ -539,6 +582,7 @@
             this.txtAppID.Size = new System.Drawing.Size(537, 20);
             this.txtAppID.TabIndex = 5;
             this.txtAppID.Text = "634787061125751953";
+            this.txtAppID.TextChanged += new System.EventHandler(this.txtAppID_TextChanged);
             // 
             // txtContentType
             // 
@@ -551,7 +595,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(20, 175);
+            this.label8.Location = new System.Drawing.Point(20, 212);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(0, 13);
             this.label8.TabIndex = 3;
@@ -583,45 +627,29 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Content-Type:";
             // 
-            // txtAgency
+            // txtAccessKey
             // 
-            this.txtAgency.Location = new System.Drawing.Point(138, 105);
-            this.txtAgency.Name = "txtAgency";
-            this.txtAgency.Size = new System.Drawing.Size(537, 20);
-            this.txtAgency.TabIndex = 17;
-            this.txtAgency.Text = "SACCO";
+            this.txtAccessKey.Location = new System.Drawing.Point(185, 178);
+            this.txtAccessKey.Name = "txtAccessKey";
+            this.txtAccessKey.Size = new System.Drawing.Size(587, 20);
+            this.txtAccessKey.TabIndex = 21;
+            this.txtAccessKey.Text = "dhHeALUHMuBK+kC5lQktCwJINpSpLGIbsm96LFJ5GVOJErOH/TIRVQO+jh/SaNlMZ/noLpf4Zdd1d3Ts/" +
+    "muWCQ==";
             // 
-            // label13
+            // label15
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(20, 110);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(88, 13);
-            this.label13.TabIndex = 16;
-            this.label13.Text = "x-accela-agency:";
-            // 
-            // txtEnvironment
-            // 
-            this.txtEnvironment.Location = new System.Drawing.Point(138, 138);
-            this.txtEnvironment.Name = "txtEnvironment";
-            this.txtEnvironment.Size = new System.Drawing.Size(537, 20);
-            this.txtEnvironment.TabIndex = 19;
-            this.txtEnvironment.Text = "DEV";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(20, 143);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(111, 13);
-            this.label14.TabIndex = 18;
-            this.label14.Text = "x-accela-environment:";
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(20, 183);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(156, 13);
+            this.label15.TabIndex = 20;
+            this.label15.Text = "x-accela-subsystem-accesskey:";
             // 
             // PostForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(858, 809);
+            this.ClientSize = new System.Drawing.Size(858, 810);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -705,6 +733,8 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox txtAgency;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox txtAccessKey;
+        private System.Windows.Forms.Label label15;
     }
 }
 
