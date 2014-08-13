@@ -694,6 +694,10 @@ RequestBody={2}
                 throw new Exception(error);
             }
 
+            if (tokenObj.StartsWith("{\"error\""))
+            {
+                return tokenObj;
+            }
             string token = tokenObj.Substring(indexStartPos + 3, indexEndPos - indexStartPos - 3);
 
             return token;
