@@ -62,6 +62,8 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabHttpExecution = new System.Windows.Forms.TabPage();
             this.tabHeaderSetting = new System.Windows.Forms.TabPage();
+            this.txtAccessKey = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.txtEnvironment = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.txtAgency = new System.Windows.Forms.TextBox();
@@ -81,8 +83,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtAccessKey = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -457,13 +457,31 @@
             this.tabHeaderSetting.Text = "Shared Http Header Setting";
             this.tabHeaderSetting.UseVisualStyleBackColor = true;
             // 
+            // txtAccessKey
+            // 
+            this.txtAccessKey.Location = new System.Drawing.Point(185, 178);
+            this.txtAccessKey.Name = "txtAccessKey";
+            this.txtAccessKey.Size = new System.Drawing.Size(587, 20);
+            this.txtAccessKey.TabIndex = 21;
+            this.txtAccessKey.Text = "dhHeALUHMuBK+kC5lQktCwJINpSpLGIbsm96LFJ5GVOJErOH/TIRVQO+jh/SaNlMZ/noLpf4Zdd1d3Ts/" +
+    "muWCQ==";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(20, 183);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(156, 13);
+            this.label15.TabIndex = 20;
+            this.label15.Text = "x-accela-subsystem-accesskey:";
+            // 
             // txtEnvironment
             // 
             this.txtEnvironment.Location = new System.Drawing.Point(138, 138);
             this.txtEnvironment.Name = "txtEnvironment";
             this.txtEnvironment.Size = new System.Drawing.Size(537, 20);
             this.txtEnvironment.TabIndex = 19;
-            this.txtEnvironment.Text = "DEV";
+            this.txtEnvironment.Text = "PROD";
             this.txtEnvironment.TextChanged += new System.EventHandler(this.txtEnvironment_TextChanged);
             // 
             // label14
@@ -481,7 +499,7 @@
             this.txtAgency.Name = "txtAgency";
             this.txtAgency.Size = new System.Drawing.Size(537, 20);
             this.txtAgency.TabIndex = 17;
-            this.txtAgency.Text = "SACCO";
+            this.txtAgency.Text = "BPTDEV-ENG";
             this.txtAgency.TextChanged += new System.EventHandler(this.txtAgency_TextChanged);
             // 
             // label13
@@ -626,24 +644,6 @@
             this.label5.Size = new System.Drawing.Size(74, 13);
             this.label5.TabIndex = 0;
             this.label5.Text = "Content-Type:";
-            // 
-            // txtAccessKey
-            // 
-            this.txtAccessKey.Location = new System.Drawing.Point(185, 178);
-            this.txtAccessKey.Name = "txtAccessKey";
-            this.txtAccessKey.Size = new System.Drawing.Size(587, 20);
-            this.txtAccessKey.TabIndex = 21;
-            this.txtAccessKey.Text = "dhHeALUHMuBK+kC5lQktCwJINpSpLGIbsm96LFJ5GVOJErOH/TIRVQO+jh/SaNlMZ/noLpf4Zdd1d3Ts/" +
-    "muWCQ==";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(20, 183);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(156, 13);
-            this.label15.TabIndex = 20;
-            this.label15.Text = "x-accela-subsystem-accesskey:";
             // 
             // PostForm
             // 
