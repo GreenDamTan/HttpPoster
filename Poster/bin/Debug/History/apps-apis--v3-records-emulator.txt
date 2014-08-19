@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://127.0.0.1/v3/records/?async=true1&lang=en_US
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-appid: com.accela.inspector
+Authorization:yhHSf1pa0JsSzOj__YZSkIdRAdRnIP3N2V_EJiZDaR_lg9a2e3E2O0_wptnjommmOhb_iVe2rMTuLET6z5RAx48cZ-xIPy3GAOHdJeSmCM3y2hGywgBPj3AMFKJrzrvoZ2qURurUh-FPcTa-5mDWeaTLXow64XcwF1NpumXjhJrxJ3aUBAKQqOcubpx7YFVcHY8ebcya4FVEVvLdjx_sD1TN0EJ3W6i4q8kWbB43zoTu5sxr8z6zwsmp0DkCv8p3xAynV6fivfhoKPOCkNFLvYLtZl4PamTWjccrZnFeYScVrxYlbYoDYIa78FTUwpLL8lmY9JhzOW8WBqpEfTQ0T3t4VskNPaPyZ6H6rV5uNwFWwiKPo5xYDh1CoXI56d_VmTJj1MNjEy418DuFDhnb5lQ1IrNPRYcaEj7yGbnJoPPQluyERLOXesXkEmv1KeQCplUYG8cqyF4qYF2_OpXSQ5PX7nf_IbvskGwC36WpE78bLX0IfRxXTd1Y1j8TLqUb0R_hK_c8qIr9-ZxxNRlUPfEjvjsw_4heT5roznrwXXbtOS4Qps6MV1Y5t9ZZGES4OSqjplhrVzvrRueE4HH-BCQ0mMW_3VQ80NPPOlhkTD-1YQwmiWV-syZdYJIFC5S4x1kUGo7GgqFtdBCp1KxCLh6VK0zc0W9qo0Hf3ktH_uR2ig-oM6effqqxtwYABzH66siuwrFVEjuUGSZ0YSIPYw2
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

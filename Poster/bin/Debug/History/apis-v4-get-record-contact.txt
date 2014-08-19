@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v4/records
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+x-accela-appid:635175027379969319
+Authorization:ei5AJj3SLi_nxNszAg9zQzsDiImHqieb_Ae2oeEDh_jHHTysklVOlP_CPKzBbbq_IiE3uOAljSEGNhkd79NxFGEcY874rA5EoeiaQTO-022yg7ARitjYUqc383nXnOmMiYcuU-DLUaxKbCIMeaYGS1rvc1ND193ONnAMA1KDjWtzI-3E3pWF9uQ4s_W2lxt2ZLpsCRstslaYSOPLMXHL9dPm3ZfsldHz5dvJAiUnbh1kLKYGjb-D_sc9pxjJD2NWfdMIKiVigIEp1nsXPwIwJaSVDz7hfDW-4nfV9ymCcNnMVSDi0v8M0djp6LQczb-70zbmz96H-KrG_AXdtIDznEfq85CmHEaUCEyhaOur_3wxODGQEhcmmfLhWy8fosKDdmXJqNr-D-Yx2cJFY2ZZuYTvCF-tv-vGDQfSy-CSYRFUtIy6mHjPS-VOTDsrjMiVg2YGY46D6n6oY8RKy9hcreox4Avtd5FXjU2ypjez7sbkPVG_dqxxgUV3ZywpK4Ke3qBigt9MmRwszyf7m0ixcQ2DM8YM_ZTGB2yXIxQDNdo1
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

@@ -1,0 +1,11 @@
+----------RequestURL----------
+RequestURL=https://127.0.0.1/v3/appsettings
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type: application/json
+x-accela-appid:com.accela.inspector
+x-accela-appsecret:839ffae0ee244cb4b558f252ca84524c
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

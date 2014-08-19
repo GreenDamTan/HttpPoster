@@ -1,0 +1,9 @@
+----------RequestURL----------
+RequestURL=https://apis.accela.com/v3/records
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------

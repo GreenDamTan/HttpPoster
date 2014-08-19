@@ -1,0 +1,12 @@
+----------RequestURL----------
+RequestURL=https://apps-admin.dev.accela.com/apis/v3/hosts?adminid=
+----------RequestURL----------
+----------RequestHeader----------
+RequestHeader=Content-Type:application/json
+x-accela-subsystem-accesskey:dhHeALUHMuBK+kC5lQktCwJINpSpLGIbsm96LFJ5GVOJErOH/TIRVQO+jh/SaNlMZ/noLpf4Zdd1d3Ts/muWCQ==
+x-accela-appid: com.accela.inspector
+x-accela-appsecret: 2012122222212102
+----------RequestHeader----------
+----------RequestBody----------
+RequestBody=
+----------RequestBody----------
