@@ -57,14 +57,18 @@ namespace Achievo.Poster
             }
         }
 
-        public static void WriteHttpHeaderSettingFile(SharedHttpHeaderSettingEntity settingObj)
+        public static void WriteHttpHeaderSettingFile(SharedHttpHeaderSettingEntity settingObj, HostEntity host)
         {
             if (!System.IO.Directory.Exists(HTTP_BASIC_SETTING_DIRECTORY))
             {
                 System.IO.Directory.CreateDirectory(HTTP_BASIC_SETTING_DIRECTORY);
             }
 
+            if (host == null) return;
+
             if (settingObj == null) return;
+
+            string fileName = String.Format("{0}\\{1}_{2}", HTTP_BASIC_SETTING_DIRECTORY, host.Name, "httpHeadingSetting.txt").ToLower();
 
             //{content-Type}|||{appId}|||{appSecret}|||{GettingTokenRequestUrl}|||{GetttingTokenRequestBody}|||{AccessToken}|||{agency}|||{environment}|||{accesskey}
             string pattern = "{0}|||{1}|||{2}|||{3}|||{4}|||{5}|||{6}|||{7}|||{8}";
@@ -72,7 +76,7 @@ namespace Achievo.Poster
                 settingObj.AppId, settingObj.AppSecret, 
                 settingObj.GetTokenRequestUrl, settingObj.GetTokenRequestBody, settingObj.AccessToken,
                 settingObj.Agency,settingObj.Environment,settingObj.AccessKey);
-            Stream stream = File.Open(HTTP_BASIC_SETTING_DIRECTORY + "\\httpHeadingSetting.txt", FileMode.Create);
+            Stream stream = File.Open(fileName, FileMode.Create);
             StreamWriter sw = new StreamWriter(stream);
 
             try
@@ -89,14 +93,15 @@ namespace Achievo.Poster
             }
         }
 
-        public static SharedHttpHeaderSettingEntity ReadHttpHeaderSettingFile()
+        public static SharedHttpHeaderSettingEntity ReadHttpHeaderSettingFile(HostEntity host)
         {
             if (!System.IO.Directory.Exists(HTTP_BASIC_SETTING_DIRECTORY))
             {
                 return null;
             }
+            if (host == null) return null;
 
-            string fileName = HTTP_BASIC_SETTING_DIRECTORY + "\\httpHeadingSetting.txt";
+            string fileName =String.Format("{0}\\{1}_{2}", HTTP_BASIC_SETTING_DIRECTORY,host.Name,"httpHeadingSetting.txt");
             if (!File.Exists(fileName))
             {
                 return null;
@@ -114,14 +119,17 @@ namespace Achievo.Poster
 
                 content = content.Replace("\r\n", "");
 
-                var segments = content.Split(new string[]{"|||"},StringSplitOptions.RemoveEmptyEntries);
+                var segments = content.Split(new string[]{"|||"},StringSplitOptions.None);
                 //if(segments.Length != 9)
                 //{
                 //    return null;
                 //}
-                //{content-Type}|||{appId}|||{appSecret}|||{GettingTokenRequestUrl}|||{GetttingTokenRequestBody}|||{AccessToken}|||{agency}|||{environment}
+                //{content-Type}|||{appId}|||{appSecret}|||{GettingTokenRequestUrl}|||{GetttingTokenRequestBody}|||{AccessToken}|||{agency}|||{environment}|||{accesskey}
                 //string pattern = "{0}|||{1}|||{2}|||{3}|||{4}|||{5}|||{6}|||{7}|||{8}";
                 SharedHttpHeaderSettingEntity settingEntity = new SharedHttpHeaderSettingEntity();
+
+                if (segments.Length == 0) return null;
+
                 settingEntity.ContentType = segments[0];
 
                 if(segments.Length > 1)
@@ -147,7 +155,72 @@ namespace Achievo.Poster
 
                 if (segments.Length > 8)
                 settingEntity.AccessKey = segments[8];
+
                 return settingEntity;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public static void WriteHostsToFile(List<HostEntity> hosts)
+        {
+            if (!System.IO.Directory.Exists(HTTP_BASIC_SETTING_DIRECTORY))
+            {
+                System.IO.Directory.CreateDirectory(HTTP_BASIC_SETTING_DIRECTORY);
+            }
+
+            string content = XmlConverter.ToXml(hosts);
+            string fileName = HTTP_BASIC_SETTING_DIRECTORY + "\\hosts.txt";
+
+            Stream stream = File.Open(fileName, FileMode.Create);
+            StreamWriter sw = new StreamWriter(stream);
+
+            try
+            {
+                sw.WriteLine(content);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                sw.Close();
+            }
+
+        }
+
+        public static List<HostEntity> ReadHostsFromFile()
+        {
+            List<HostEntity> result = new List<HostEntity>();
+
+            if (!System.IO.Directory.Exists(HTTP_BASIC_SETTING_DIRECTORY))
+            {
+                return null;
+            }
+
+            string fileName = HTTP_BASIC_SETTING_DIRECTORY + "\\hosts.txt";
+            if (!File.Exists(fileName))
+            {
+                return null;
+            }
+
+            try
+            {
+                StreamReader sr = new StreamReader(fileName);
+                string content = sr.ReadToEnd();
+                sr.Close();
+
+                if (String.IsNullOrWhiteSpace(content))
+                {
+                    return result;
+                }
+
+                result = XmlConverter.FromXmlTo<List<HostEntity>>(content);
+
+                return result;
             }
             catch (Exception ex)
             {

@@ -1,5 +1,5 @@
 ----------RequestURL----------
-RequestURL=http://apps-apis.dev.accela.com/v4/async/result?requestId=ff24f2b6954f43be9f9656c37989fd18-20140729
+RequestURL=https://apps-apis.dev.accela.com/v4/async/result?requestId=ff24f2b6954f43be9f9656c37989fd18-20140729
 ----------RequestURL----------
 ----------RequestHeader----------
 RequestHeader=Content-Type:application/json

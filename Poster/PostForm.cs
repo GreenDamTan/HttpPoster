@@ -33,6 +33,7 @@ namespace Achievo.Poster
         private const string LINE_SEPARATE = "\n\r=======================[{0}], Costs:{1} ms, Length:{2}, traceId:{3} =====================\n\r";
 
         private static SharedHttpHeaderSettingEntity SHARED_HTTP_HEADER_SETTING = null;
+        private static List<HostEntity> HOSTS = null;
         private DateTime LastExecuteTime = DateTime.Now;
         public PostForm()
         {
@@ -51,7 +52,40 @@ appid : com.accela.inspector
 ";
 
             LoadHistory(null);
-            LoadSharedHttpHeaderSetting();
+            LoadHosts();
+            //LoadSharedHttpHeaderSetting();
+        }
+
+        private void LoadHosts()
+        {
+            try
+            {
+                HOSTS = FileUtility.ReadHostsFromFile();
+                BindHosts(this.cmbHosts, HOSTS);
+                BindHosts(cmbHostsTab2, HOSTS, -1);
+                //BindHostsToDataGrid(HOSTS);
+                ShowHostsToHostsText(HOSTS);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+            }
+        }
+
+        private void BindHosts(ComboBox cmbBox, List<HostEntity> hosts, int selectedIndex = 0)
+        {
+            cmbBox.Items.Clear();
+
+            if(hosts != null && hosts.Count > 0)
+            {
+                var hostArr = hosts.ToArray();
+                cmbBox.Items.AddRange(hostArr);
+
+                if (cmbBox.Items.Count > 0)
+                {
+                    cmbBox.SelectedIndex = selectedIndex;
+                }
+            }
         }
 
         private void LoadHistory(string name)
@@ -79,26 +113,48 @@ appid : com.accela.inspector
             }
         }
 
-        private void LoadSharedHttpHeaderSetting()
+        private void LoadSharedHttpHeaderSetting(HostEntity host)
         {
             try
             {
+                if (host == null) return;
                 // open application, init a token
-                btnGenerateToken_Click(null, null);
-                SHARED_HTTP_HEADER_SETTING = FileUtility.ReadHttpHeaderSettingFile();
+                //btnGenerateToken_Click(null, null);
+                SHARED_HTTP_HEADER_SETTING = FileUtility.ReadHttpHeaderSettingFile(host);
 
-                this.txtAgency.Text = SHARED_HTTP_HEADER_SETTING.Agency;
-                this.txtAppID.Text = SHARED_HTTP_HEADER_SETTING.AppId;
-                this.txtAppSecret.Text = SHARED_HTTP_HEADER_SETTING.AppSecret;
-                this.txtContentType.Text = SHARED_HTTP_HEADER_SETTING.ContentType;
-                this.txtEnvironment.Text = SHARED_HTTP_HEADER_SETTING.Environment;
-                this.txtRequestBodyForGettingToken.Text = SHARED_HTTP_HEADER_SETTING.GetTokenRequestBody;
-                this.txtRequestUrlForGettingToken.Text = SHARED_HTTP_HEADER_SETTING.GetTokenRequestUrl;
-                this.txtResponseToken.Text = SHARED_HTTP_HEADER_SETTING.AccessToken;
+                FillSharedHttpHeaderSettings(SHARED_HTTP_HEADER_SETTING);
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error");
+            }
+        }
+
+        private void FillSharedHttpHeaderSettings(SharedHttpHeaderSettingEntity entity)
+        {
+            if(entity == null)
+            {
+                this.txtAgency.Clear();
+                this.txtAppID.Clear();
+                this.txtAppSecret.Clear();
+                this.txtContentType.Clear();
+                this.txtEnvironment.Clear();
+                this.txtRequestBodyForGettingToken.Clear();
+                this.txtRequestUrlForGettingToken.Clear();
+                this.txtResponseToken.Clear();
+                this.txtAccessKey.Clear();
+            }
+            else
+            {
+                this.txtAgency.Text = entity.Agency;
+                this.txtAppID.Text = entity.AppId;
+                this.txtAppSecret.Text = entity.AppSecret;
+                this.txtContentType.Text = entity.ContentType;
+                this.txtEnvironment.Text = entity.Environment;
+                this.txtRequestBodyForGettingToken.Text = entity.GetTokenRequestBody;
+                this.txtRequestUrlForGettingToken.Text = entity.GetTokenRequestUrl;
+                this.txtResponseToken.Text = entity.AccessToken;
+                this.txtAccessKey.Text = entity.AccessKey;
             }
         }
 
@@ -146,6 +202,7 @@ appid : com.accela.inspector
 
                 listView1.Items.Clear();
                 int concurrent = Convert.ToInt32(this.numericUpDown1.Value);
+  
                 NameValueCollection headers = this.GetHeaders(this.chkReplaceHeader.Checked, SHARED_HTTP_HEADER_SETTING);
                 string requestBody = this.txtRequestBody.Text.Trim();
                 TaskScheduler uiTaskScheduler = TaskScheduler.FromCurrentSynchronizationContext();
@@ -264,6 +321,16 @@ appid : com.accela.inspector
                     // Get HTTP response from completed task.
                     if (requestTask.IsCompleted && requestTask.Status == TaskStatus.RanToCompletion)
                     {
+                        if(sequence == 1 && this.chkReplaceHeader.Checked
+                            && SHARED_HTTP_HEADER_SETTING != null 
+                            && !String.IsNullOrWhiteSpace(SHARED_HTTP_HEADER_SETTING.GetTokenRequestUrl)
+                            && !String.IsNullOrWhiteSpace(SHARED_HTTP_HEADER_SETTING.GetTokenRequestBody)
+                            && requestTask.Result.StatusCode == HttpStatusCode.Unauthorized)
+                        {
+                            //auto generate a access token
+                            this.GenerateToken(SHARED_HTTP_HEADER_SETTING.GetTokenRequestUrl, SHARED_HTTP_HEADER_SETTING.GetTokenRequestBody);
+                        }
+
                         //    HttpResponseMessage response = requestTask.Result;
                         var header = requestTask.Result.Content.Headers.ToString();
                         this.txtResponseHeader.Text = ((int)requestTask.Result.StatusCode) + "-" + requestTask.Result.StatusCode.ToString() + "\r\n" + header + requestTask.Result.Headers.ToString();
@@ -599,11 +666,72 @@ RequestBody={2}
                 RequestEntity re = FileUtility.GetRequestDataFromFile(selected);
                 if (re != null)
                 {
-                    this.txtRequestUrl.Text = re.RequestURL.Replace("\r", "");
+                    // get host
+                    string host = "";
+                    var selectHost = this.cmbHosts.SelectedItem as HostEntity;
+                    if (selectHost != null)
+                    {
+                        host = selectHost.HostUrl;
+                    }
+
+                    if (!String.IsNullOrWhiteSpace(host) && re.RequestURL.StartsWith("http", StringComparison.OrdinalIgnoreCase))
+                    {
+                        int pos = re.RequestURL.IndexOf("/", 8);
+                        if (!host.EndsWith("/"))
+                        {
+                            host += "/";
+                        }
+                        this.txtRequestUrl.Text = (host + re.RequestURL.Substring(pos + 1)).Replace("\r", "");
+                    }
+                    else
+                    {
+                        this.txtRequestUrl.Text = re.RequestURL.Replace("\r", "");
+                    }
+
                     this.txtRequestHeader.Text = re.RequestHeader;
                     this.txtRequestBody.Text = re.RequestBody;
                     this.txtSaveAs.Text = selected;
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnSaveSettings_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SharedHttpHeaderSettingEntity settingObj = new SharedHttpHeaderSettingEntity();
+                settingObj.ContentType = this.txtContentType.Text.Trim().Replace("\r\n", String.Empty);
+                settingObj.AppId = this.txtAppID.Text.Trim().Replace("\r\n", String.Empty);
+                settingObj.AppSecret = txtAppSecret.Text.Trim().Replace("\r\n", String.Empty);
+                settingObj.GetTokenRequestUrl = this.txtRequestUrlForGettingToken.Text.Trim().Replace("\r\n", String.Empty);
+                settingObj.GetTokenRequestBody = txtRequestBodyForGettingToken.Text.Trim().Replace("\r\n", String.Empty);
+
+                settingObj.Agency = txtAgency.Text.Trim().Replace("\r\n", String.Empty);
+                settingObj.Environment = txtEnvironment.Text.Trim().Replace("\r\n", String.Empty);
+                settingObj.AccessKey = txtAccessKey.Text.Trim().Replace("\r\n", String.Empty);
+
+                if (string.IsNullOrWhiteSpace(settingObj.ContentType)
+                    || string.IsNullOrWhiteSpace(settingObj.AppId)
+                    || string.IsNullOrWhiteSpace(settingObj.AppSecret)
+                    || string.IsNullOrWhiteSpace(settingObj.GetTokenRequestUrl)
+                    || string.IsNullOrWhiteSpace(settingObj.GetTokenRequestBody)
+                    || string.IsNullOrWhiteSpace(settingObj.Agency)
+                    || string.IsNullOrWhiteSpace(settingObj.Environment)
+                    || this.cmbHostsTab2.SelectedItem == null
+                    )
+                {
+                    MessageBox.Show("Please enter all required fields.");
+                    return;
+                }
+                var selectedHost = this.cmbHostsTab2.SelectedItem as HostEntity;
+                FileUtility.WriteHttpHeaderSettingFile(settingObj, selectedHost);
+
+
+                MessageBox.Show("Update Successfully.");
             }
             catch (Exception ex)
             {
@@ -624,6 +752,25 @@ RequestBody={2}
 
                 settingObj.Agency = txtAgency.Text.Trim().Replace("\r\n", String.Empty);
                 settingObj.Environment = txtEnvironment.Text.Trim().Replace("\r\n",String.Empty);
+                settingObj.AccessKey = txtAccessKey.Text.Trim().Replace("\r\n", String.Empty);
+
+                if(string.IsNullOrWhiteSpace(settingObj.ContentType)
+                    || string.IsNullOrWhiteSpace(settingObj.AppId)
+                    || string.IsNullOrWhiteSpace(settingObj.AppSecret)
+                    || string.IsNullOrWhiteSpace(settingObj.GetTokenRequestUrl)
+                    || string.IsNullOrWhiteSpace(settingObj.GetTokenRequestBody)
+                    || string.IsNullOrWhiteSpace(settingObj.Agency)
+                    || string.IsNullOrWhiteSpace(settingObj.Environment)
+                    || this.cmbHostsTab2.SelectedItem == null
+                    )
+                {
+                    MessageBox.Show("Please enter all required fields.");
+                    return;
+                }
+                var selectedHost = this.cmbHostsTab2.SelectedItem as HostEntity;
+
+                FileUtility.WriteHttpHeaderSettingFile(settingObj, selectedHost);
+                SHARED_HTTP_HEADER_SETTING = settingObj;
 
                 // send request to get access token
                 ServicePointManager.ServerCertificateValidationCallback = delegate(Object obj, X509Certificate certificate, X509Chain chain, SslPolicyErrors errors) { return (true); };
@@ -639,22 +786,8 @@ RequestBody={2}
                 {
                     if (requestTask.IsCompleted && requestTask.Status == TaskStatus.RanToCompletion)
                     {
-                        //response.Content.Headers.ContentType
-                        //var resultStream = requestTask.Result.Content.ReadAsStreamAsync().Result;
-                        //if (requestTask.Result.Content.Headers.ContentEncoding.Count > 0)
-                        //{
-                        //    var contentEncoding = requestTask.Result.Content.Headers.ContentEncoding.First();
-                        //    resultStream = Decompress(resultStream, contentEncoding);
-                        //    resultStream.Position = 0;
-                        //    StreamReader reader = new StreamReader(resultStream);
-                        //    settingObj.AccessToken = this.txtResponseToken.Text = ParseToken(reader.ReadToEnd());
-                        //    resultStream.Close();
-                        //    reader.Close();
-                        //}
-                        //else
-                        //{
-                            settingObj.AccessToken = this.txtResponseToken.Text =ParseToken( requestTask.Result.Content.ReadAsStringAsync().Result);
-                        //}
+                         settingObj.AccessToken = this.txtResponseToken.Text =ParseToken( requestTask.Result.Content.ReadAsStringAsync().Result);
+                         FileUtility.WriteHttpHeaderSettingFile(settingObj, selectedHost);
                     }
                     else
                     {
@@ -662,15 +795,44 @@ RequestBody={2}
                         return;
                     }
                 });
-
-                FileUtility.WriteHttpHeaderSettingFile(settingObj);
-                SHARED_HTTP_HEADER_SETTING = settingObj;
-                //MessageBox.Show("Update Successfully.");
             }
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void GenerateToken(string requestURL, string requestBody)
+        {
+            if (String.IsNullOrWhiteSpace(requestURL) || String.IsNullOrWhiteSpace(requestBody))
+            {
+                 throw new ArgumentNullException("requestURL or requestBody");
+            }
+            // send request to get access token
+            ServicePointManager.ServerCertificateValidationCallback = delegate(Object obj, X509Certificate certificate, X509Chain chain, SslPolicyErrors errors) { return (true); };
+            HttpClient client = new HttpClient();
+            HttpRequestMessage requestMessage = new HttpRequestMessage(HttpMethod.Post, requestURL);
+            requestMessage.Headers.TryAddWithoutValidation("Content-Type", "application/x-www-form-urlencoded");
+
+            requestMessage.Content = new StringContent(requestBody, Encoding.UTF8, "application/x-www-form-urlencoded");
+
+            var task = client.SendAsync(requestMessage, HttpCompletionOption.ResponseContentRead);
+
+            task.ContinueWith((response) =>
+            {
+                if (response.IsCompleted && response.Status == TaskStatus.RanToCompletion)
+                {
+                    if (SHARED_HTTP_HEADER_SETTING == null)
+                        SHARED_HTTP_HEADER_SETTING = new SharedHttpHeaderSettingEntity();
+
+                    SHARED_HTTP_HEADER_SETTING.AccessToken = ParseToken(response.Result.Content.ReadAsStringAsync().Result);
+                }
+                else
+                {
+                    MessageBox.Show("Failed to generate access token, please try again.");
+                    return;
+                }
+            });
         }
 
         private string ParseToken(string tokenObj)
@@ -757,6 +919,140 @@ RequestBody={2}
                 this.LastExecuteTime = DateTime.Now;
                 btnGenerateToken_Click(null, null);
             }
+        }
+
+        private void btnHostSave_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var hosts = new List<HostEntity>();
+
+                string content = this.txtAllHosts.Text.Trim();
+
+                if (!String.IsNullOrWhiteSpace(content))
+                {
+                    var lines = content.Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                    lines.ToList().Where(l => !String.IsNullOrWhiteSpace(l)).ToList().
+                        ForEach(l =>
+                        {
+                            var keyValue = l.Split(new char[] { ' ' });
+                            if (keyValue.Length == 2)
+                            {
+                                hosts.Add(new HostEntity { Name = keyValue[0], HostUrl = keyValue[1] });
+                            }
+                        }
+                );
+                }
+
+
+                if (hosts == null || hosts.Count == 0)
+                {
+                    MessageBox.Show("Please check the format, At least one host is required.");
+                    return;
+                }
+                else
+                {
+                    FileUtility.WriteHostsToFile(hosts);
+                    HOSTS = hosts;
+                    //BindHostsToDataGrid(HOSTS);
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        //private void BindHostsToDataGrid(List<HostEntity> hosts)
+        //{
+        //    DataGridViewTextBoxColumn column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+        //    column1.DataPropertyName = "Name";
+        //    column1.HeaderText = "Name";
+        //    column1.Name = "Name";
+        //    column1.Width = 200;
+
+        //    DataGridViewTextBoxColumn column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+        //    column2.DataPropertyName = "HostUrl";
+        //    column2.HeaderText = "HostUrl";
+        //    column2.Name = "HostUrl";
+        //    column2.Width = 500;
+
+        //    dataGridView1.AllowUserToAddRows = true;
+        //    this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {column1, column2 });
+
+        //    this.dataGridView1.DataSource = hosts;
+        //}
+
+        private void ShowHostsToHostsText(List<HostEntity> hosts)
+        {
+            StringBuilder sbContent = new StringBuilder();
+            if(hosts != null)
+            {
+                int i = 0;
+                foreach(var h in hosts)
+                {
+                    if(i>0)
+                    {
+                        sbContent.Append("\r\n");
+                    }
+                    
+                    sbContent.Append(String.Format("{0} {1}", h.Name, h.HostUrl));
+                    i++;
+                }
+            }
+
+            this.txtAllHosts.Text = sbContent.ToString();
+        }
+
+        private void txtAllHosts_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control & e.KeyCode == Keys.A)
+                txtAllHosts.SelectAll();
+        }
+
+        private void cmbHosts_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                // get host
+                string host = "";
+                string requestUrl = "";
+                var selectHost = this.cmbHosts.SelectedItem as HostEntity;
+                if (selectHost == null)
+                {
+                    return;
+                }
+
+                host = selectHost.HostUrl;
+                requestUrl = this.txtRequestUrl.Text.Trim();
+
+                if (!String.IsNullOrWhiteSpace(host) && requestUrl.StartsWith("http", StringComparison.OrdinalIgnoreCase))
+                {
+                    int pos = requestUrl.IndexOf("/", 8);
+                    if (!host.EndsWith("/"))
+                    {
+                        host += "/";
+                    }
+                    this.txtRequestUrl.Text = (host + requestUrl.Substring(pos + 1)).Replace("\r", "");
+                }
+
+                LoadSharedHttpHeaderSetting(selectHost);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void cmbHostsTab2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var selectHost = this.cmbHostsTab2.SelectedItem as HostEntity;
+            //if (selectHost == null)
+            //{
+            //    return;
+            //}
+
+            LoadSharedHttpHeaderSetting(selectHost);
         }
     }
 }

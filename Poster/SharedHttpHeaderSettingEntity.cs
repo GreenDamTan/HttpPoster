@@ -60,5 +60,11 @@ namespace Achievo.Poster
             get;
             set;
         }
+
+        public string Host
+        {
+            get;
+            set;
+        }
     }
 }
