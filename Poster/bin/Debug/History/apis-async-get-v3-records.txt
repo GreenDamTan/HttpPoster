@@ -1,5 +1,5 @@
 ----------RequestURL----------
-RequestURL=https://apps-apis.dev.accela.com/v3/records/?async=true1&lang=en_US
+RequestURL=https://apis.dev.accela.com/v3/records/?async=true&lang=en_US
 ----------RequestURL----------
 ----------RequestHeader----------
 RequestHeader=

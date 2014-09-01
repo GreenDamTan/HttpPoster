@@ -1,9 +1,0 @@
-----------RequestURL----------
-RequestURL=https://apis.dev.accela.com/oauth2/token
-----------RequestURL----------
-----------RequestHeader----------
-RequestHeader=Content-Type:application/x-www-form-urlencoded
-----------RequestHeader----------
-----------RequestBody----------
-RequestBody=password=admin&username=admin&scope=records settings get_record_customtables get_settings_record_statuses settings  reports parcels documents conditions inspections addresses contacts owners professionals payments run_generic_search get_inspection_checklist_items&agency_name=BPTDEV-ENG&environment=PROD&grant_type=password&client_id=634971903722009828&client_secret=7b8f3610feaf4586a0ba6b19c5a4b9cf
-----------RequestBody----------
