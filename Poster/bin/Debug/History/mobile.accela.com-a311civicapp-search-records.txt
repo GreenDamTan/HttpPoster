@@ -1,9 +1,0 @@
-----------RequestURL----------
-RequestURL=https://mobile.accela.com/apis/v1/a311civicapp/search/records/?token=3bc0d3e2299edd0c7ea09f9012aa129f
-----------RequestURL----------
-----------RequestHeader----------
-RequestHeader=Content-Type: application/json
-----------RequestHeader----------
-----------RequestBody----------
-RequestBody={"BBoxValue":null,"CivicId":"00000000-0000-0000-0000-000000000000","Environment":"DEV","GeoCircle":{"centerX":"-121.89148664474487","centerY":"37.694365100931826","radius":"10000"}}
-----------RequestBody----------

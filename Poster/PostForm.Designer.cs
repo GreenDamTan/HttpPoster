@@ -63,6 +63,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabHttpExecution = new System.Windows.Forms.TabPage();
             this.tabHeaderSetting = new System.Windows.Forms.TabPage();
+            this.btnSaveSettings = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
@@ -99,7 +100,6 @@
             this.label17 = new System.Windows.Forms.Label();
             this.txtAllHosts = new System.Windows.Forms.TextBox();
             this.btnHostSave = new System.Windows.Forms.Button();
-            this.btnSaveSettings = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -504,6 +504,17 @@
             this.tabHeaderSetting.Text = "Shared Http Header Setting";
             this.tabHeaderSetting.UseVisualStyleBackColor = true;
             // 
+            // btnSaveSettings
+            // 
+            this.btnSaveSettings.Location = new System.Drawing.Point(138, 467);
+            this.btnSaveSettings.Name = "btnSaveSettings";
+            this.btnSaveSettings.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.btnSaveSettings.Size = new System.Drawing.Size(233, 23);
+            this.btnSaveSettings.TabIndex = 33;
+            this.btnSaveSettings.Text = "Save Settings";
+            this.btnSaveSettings.UseVisualStyleBackColor = true;
+            this.btnSaveSettings.Click += new System.EventHandler(this.btnSaveSettings_Click);
+            // 
             // label26
             // 
             this.label26.AutoSize = true;
@@ -673,7 +684,7 @@
             this.btnGenerateToken.Name = "btnGenerateToken";
             this.btnGenerateToken.Size = new System.Drawing.Size(246, 23);
             this.btnGenerateToken.TabIndex = 15;
-            this.btnGenerateToken.Text = "Generate Access Token and Save the Settings";
+            this.btnGenerateToken.Text = "Generate  and Save Access Token";
             this.btnGenerateToken.UseVisualStyleBackColor = true;
             this.btnGenerateToken.Click += new System.EventHandler(this.btnGenerateToken_Click);
             // 
@@ -840,17 +851,6 @@
             this.btnHostSave.Text = "Save";
             this.btnHostSave.UseVisualStyleBackColor = true;
             this.btnHostSave.Click += new System.EventHandler(this.btnHostSave_Click);
-            // 
-            // btnSaveSettings
-            // 
-            this.btnSaveSettings.Location = new System.Drawing.Point(138, 467);
-            this.btnSaveSettings.Name = "btnSaveSettings";
-            this.btnSaveSettings.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnSaveSettings.Size = new System.Drawing.Size(233, 23);
-            this.btnSaveSettings.TabIndex = 33;
-            this.btnSaveSettings.Text = "Save Settings";
-            this.btnSaveSettings.UseVisualStyleBackColor = true;
-            this.btnSaveSettings.Click += new System.EventHandler(this.btnSaveSettings_Click);
             // 
             // PostForm
             // 

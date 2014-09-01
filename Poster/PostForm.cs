@@ -598,6 +598,15 @@ appid : com.accela.inspector
                 {
                     headerList.Add("authorization", sharedSetting.AccessToken);
                 }
+
+                if (headerList.AllKeys.Contains("x-accela-subsystem-accesskey"))
+                {
+                    headerList["x-accela-subsystem-accesskey"] = sharedSetting.AccessKey;
+                }
+                else
+                {
+                    headerList.Add("x-accela-subsystem-accesskey", sharedSetting.AccessKey);
+                }
             }
             //if (sharedSetting != null)
             //{

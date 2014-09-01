@@ -1,9 +1,0 @@
-----------RequestURL----------
-RequestURL=http://mobiledev.cloudapp.net/apis/v1/authenticate
-----------RequestURL----------
-----------RequestHeader----------
-RequestHeader=Content-Type: application/json
-----------RequestHeader----------
-----------RequestBody----------
-RequestBody={"appID":"com.accela.inspector","agency":"OTAGO2","userName":"admin","password":"admin","environmentName":"DEV"}
-----------RequestBody----------

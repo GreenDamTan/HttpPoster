@@ -1,9 +1,0 @@
-----------RequestURL----------
-RequestURL=http://10.50.0.158:53080/rest/recordTypes?module=Building&token=12842508110159752139
-----------RequestURL----------
-----------RequestHeader----------
-RequestHeader=Content-Type : application/json
-----------RequestHeader----------
-----------RequestBody----------
-RequestBody=
-----------RequestBody----------
