@@ -940,12 +940,16 @@ RequestBody={2}
 
                 if (!String.IsNullOrWhiteSpace(content))
                 {
-                    var lines = content.Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                    var lines = content.Split(new char[] { '\r', '\n' });
                     lines.ToList().Where(l => !String.IsNullOrWhiteSpace(l)).ToList().
                         ForEach(l =>
                         {
                             var keyValue = l.Split(new char[] { ' ' });
-                            if (keyValue.Length == 2)
+                            if(keyValue.Length == 1)
+                            {
+                                hosts.Add(new HostEntity { Name = keyValue[0], HostUrl = String.Empty });
+                            }
+                            else if (keyValue.Length == 2)
                             {
                                 hosts.Add(new HostEntity { Name = keyValue[0], HostUrl = keyValue[1] });
                             }
@@ -963,6 +967,7 @@ RequestBody={2}
                 {
                     FileUtility.WriteHostsToFile(hosts);
                     HOSTS = hosts;
+                    MessageBox.Show("Save successfully.");
                     //BindHostsToDataGrid(HOSTS);
                 }
             }

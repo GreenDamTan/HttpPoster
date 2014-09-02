@@ -16,4 +16,8 @@
     <Name>Locahost-API</Name>
     <HostUrl>http://localhost:5547</HostUrl>
   </HostEntity>
+  <HostEntity>
+    <Name>Original</Name>
+    <HostUrl />
+  </HostEntity>
 </ArrayOfHostEntity>
